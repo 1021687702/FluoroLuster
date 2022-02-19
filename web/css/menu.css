@@ -1,0 +1,65 @@
+/* Reset */
+#menu,
+#menu ul,
+#menu li,
+#menu a {margin: 0;padding: 0;border: none;outline: none;}
+
+/* Menu */
+#menu {	height:100px;width:850px; z-index:99999; position:relative;
+    /*½¥±ä
+
+
+    Ô²½Ç
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;*/}
+
+#menu li {position: relative;list-style: none;float: left;display: block; width:100px;height:100px; text-align:center; z-index:99999;  }
+
+/* Links */
+
+#menu li a {display: block;padding:0px;margin: 0px 0;line-height:100px;text-decoration: none; font-family: "Î¢ÈíÑÅºÚ";font-size: 14px;color: #333333;
+    -webkit-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+}
+
+#menu li:first-child a { border-left: none; }
+#menu li:last-child a{ border-right: none; }
+
+#menu li:hover > a {background: #1e65be;  color:#fff}
+#menu li a#active{background:#1e65be;  color:#fff}
+
+/* Sub Menu */
+
+#menu ul {position: absolute; width:120px;left:0;opacity: 0;background: #1e65be;top:100px;
+    /*
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    */
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;}
+
+#menu li:hover > ul { opacity: 1; }
+
+#menu ul li {height: 0;overflow: hidden;padding: 0;
+
+    -webkit-transition: height .3s ease .1s;
+    -moz-transition: height .3s ease .1s;
+    -o-transition: height .3s ease .1s;
+    -ms-transition: height .3s ease .1s;
+    transition: height .3s ease .1s;}
+
+#menu li:hover > ul li {height: 40px;overflow: visible;padding: 0;border: none; width:120px; margin-left:0px;}
+#menu ul li a { display:block;padding: 0;margin: 0;border: none;text-align:center;font-size:13px; color:#fff; line-height:40px; font-family: "Î¢ÈíÑÅºÚ"; background:#1e65be; }
+#menu ul li a:hover{ display:block; background:#2777da;color:#fff; margin-left:0px;}
+#menu ul li:last-child a { border: none; }
+#menu ul li ul { position:absolute; left:150px; top:0; width:145px;}
+#menu ul li ul li { height: 30px;padding: 0; font-size:13px;border: none; width:150px; }
+#menu ul li ul li a {display:block;padding: 0;margin: 0;font-size:13px; color:#fff; line-height:30px; text-align:left; padding-left:20px; }
