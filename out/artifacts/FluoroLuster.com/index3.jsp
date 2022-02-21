@@ -31,6 +31,7 @@
 
   </head>
   <body>
+  <%@ include file="header.jsp"%>
   <form id="form1" name="form1" method="post" action="ProductsServlet?method=queryProductsById">
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
@@ -39,13 +40,13 @@
       </tr>
       <c:forEach var="product" items="${products}" varStatus="i" >
       <tr>
-        <td>${product.id}</td>
-        <td>${product.name}</td>
+        <td><a href="product_show.jsp?id=${product.id}" />${product.id} </td>
+        <td><a href="product_show.jsp?name=${product.name}" />${product.name}</td>
         <td>${product.description}</td>
       </tr>
       </c:forEach>
+      <%@ include file="footer.jsp"%>
     </table>
   </form>
-
   </body>
 </html>

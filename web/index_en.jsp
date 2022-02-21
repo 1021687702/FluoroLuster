@@ -71,15 +71,15 @@ Our technical team led by Postdoctoral of USA, with professional sales and servi
                                         <li><a href="products.jsp" >Products</a>
                                             <ul>
 
-                                                <li><a href="products.asp?BigClassID=23&bcn=APIs&menu_id=4&fo=3&flags=30">APIs</a></li>
+                                                <li><a href="products.jsp?BigClassID=23&bcn=APIs&menu_id=4&fo=3&flags=30">APIs</a></li>
 
-                                                <li><a href="products.asp?BigClassID=35&bcn=Medical intermediate&menu_id=4&fo=3&flags=31">Medical intermediate</a></li>
+                                                <li><a href="products.jsp?BigClassID=35&bcn=Medical intermediate&menu_id=4&fo=3&flags=31">Medical intermediate</a></li>
 
-                                                <li><a href="products.asp?BigClassID=37&bcn=Fluoride compounds&menu_id=4&fo=3&flags=32">Fluoride compounds</a></li>
+                                                <li><a href="products.jsp?BigClassID=37&bcn=Fluoride compounds&menu_id=4&fo=3&flags=32">Fluoride compounds</a></li>
 
-                                                <li><a href="products.asp?BigClassID=47&bcn=Hydroxyproline series&menu_id=4&fo=3&flags=35">Hydroxyproline series</a></li>
+                                                <li><a href="products.jsp?BigClassID=47&bcn=Hydroxyproline series&menu_id=4&fo=3&flags=35">Hydroxyproline series</a></li>
 
-                                                <li><a href="products.asp?BigClassID=48&bcn=Carbohydrate Chemistry&menu_id=4&fo=3&flags=36">Carbohydrate Chemistry</a></li>
+                                                <li><a href="products.jsp?BigClassID=48&bcn=Carbohydrate Chemistry&menu_id=4&fo=3&flags=36">Carbohydrate Chemistry</a></li>
 
                                             </ul>
                                         </li>
@@ -212,7 +212,7 @@ Our technical team led by Postdoctoral of USA, with professional sales and servi
         <tr>
             <td height="56" align="center" bgcolor="#F7F7F7"><table width="1000" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td align="left"><form id="form1" name="form1" method="post" action="products.asp">
+                    <td align="left"><form id="form1" name="form1" method="post" action="products.jsp">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td><input type="text" name="names" id="textfield" style="width:400px;height:30px;border:0px" placeholder="Please enter the product name or CAS!"  />
@@ -325,32 +325,32 @@ Our technical team led by Postdoctoral of USA, with professional sales and servi
                             <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td width="220" align="left" valign="top"><br />
-                                        <br />              <img src="images/ewm.png" width="100" height="100" /><br />
+                                        <br />              <img src="images/qrcode.png" width="100" height="100" /><br />
                                         <br />              <img src="images/logo.png" width="102" height="100" border="0" /><br /></td>
                                     <td width="224" align="left" valign="top"><span class="end-font">About us <br /> </span>
                                         <span class="end-font1">
-			  <a href="file_read.asp?ID=1&fo=2" class="end-font1">About us</a><br />
-			  <a href="news.asp?fo=2" class="end-font1">News center</a><br />
-              <a href="file_read.asp?ID=2&fo=2" class="end-font1">Quality management</a><br />
-              <a href="file_read.asp?ID=3&fo=2" class="end-font1">Equipment list</a><br />
-              <a href="reaction.asp?id=4&fo=4" class="end-font1">Reaction</a><br />
-			  <a href="business.asp?id=5&fo=5&flags=7" class="end-font1">Business</a><br />
-			  <a href="job.asp?fo=6" class="end-font1">Join us</a><br />
-			  <a href="order.asp?fo=6" class="end-font1">Online enquiry</a><br />
+			  <a href="file_read.jsp?ID=1&fo=2" class="end-font1">About us</a><br />
+			  <a href="news.jsp?fo=2" class="end-font1">News center</a><br />
+              <a href="file_read.jsp?ID=2&fo=2" class="end-font1">Quality management</a><br />
+              <a href="file_read.jsp?ID=3&fo=2" class="end-font1">Equipment list</a><br />
+              <a href="reaction.jsp?id=4&fo=4" class="end-font1">Reaction</a><br />
+			  <a href="business.jsp?id=5&fo=5&flags=7" class="end-font1">Business</a><br />
+			  <a href="job.jsp?fo=6" class="end-font1">Join us</a><br />
+			  <a href="order.jsp?fo=6" class="end-font1">Online enquiry</a><br />
 			  </span></td>
                                     <td width="241" align="left" valign="top"><span class="end-font">products</span><br />
 
 
 
-                                        <a href="products.asp?bcn=23&fo=3" class="end-font1">APIs</a><br />
+                                        <a href="products.jsp?bcn=23&fo=3" class="end-font1">APIs</a><br />
 
-                                        <a href="products.asp?bcn=35&fo=3" class="end-font1">Medical intermediate</a><br />
+                                        <a href="products.jsp?bcn=35&fo=3" class="end-font1">Medical intermediate</a><br />
 
-                                        <a href="products.asp?bcn=37&fo=3" class="end-font1">Fluoride compounds</a><br />
+                                        <a href="products.jsp?bcn=37&fo=3" class="end-font1">Fluoride compounds</a><br />
 
-                                        <a href="products.asp?bcn=47&fo=3" class="end-font1">Hydroxyproline series</a><br />
+                                        <a href="products.jsp?bcn=47&fo=3" class="end-font1">Hydroxyproline series</a><br />
 
-                                        <a href="products.asp?bcn=48&fo=3" class="end-font1">Carbohydrate Chemistry</a><br />
+                                        <a href="products.jsp?bcn=48&fo=3" class="end-font1">Carbohydrate Chemistry</a><br />
                                     </td>
                                     <td width="315" align="left" valign="top"><span class="end-font">Contact us </span><br />
 

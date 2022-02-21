@@ -27,81 +27,8 @@
 </head>
 
 <body>
-<center>
-    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-            <td align="center"><link rel="stylesheet" href="css/css.css" type="text/css" />
-                <script src="js/public.js" type="text/javascript"></script>
-                <table width="100%" height="100" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-                    <tr>
-                        <td align="center"><table width="1156" height="100" border="0" align="center" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td width="203" align="left"><a href="index.asp?fo=1"><img src="images/logo.jpg" width="163" height="100" border="0" /></a></td>
-                                <td width="953" align="right"><link rel="stylesheet" href="css/menu.css" media="screen">
-                                    <style type="text/css">
-                                        html, body { margin: 0;	padding: 0; font-family:"微软雅黑" }
-                                        ul.menu { margin: 0px auto 0 auto; }
-                                        p,p a{font-size:14px;color:#666;}
-                                    </style>
-
-                                    <ul id="menu">
-                                        <li><a href="index.jsp"  >首页</a></li>
-                                        <li><a href="file_read.jsp"  >关于我们</a>
-                                            <ul >
-                                                <li><a href="file_read.jsp" >公司简介</a></li>
-                                                <li><a href="file_read.jsp">质量管理</a></li>
-                                                <li><a href="file_read.jsp" >设备清单</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a href="products.jsp?fo=3&flags=17" >产品中心</a>
-                                            <ul>
-
-                                                <li><a href="products.asp?BigClassID=23&bcn=原料药&menu_id=4&fo=3&flags=30">原料药</a></li>
-
-                                                <li><a href="products.asp?BigClassID=35&bcn=医药中间体&menu_id=4&fo=3&flags=31">医药中间体</a></li>
-
-                                                <li><a href="products.asp?BigClassID=37&bcn=含氟化合物&menu_id=4&fo=3&flags=32">含氟化合物</a></li>
-
-                                                <li><a href="products.asp?BigClassID=47&bcn=羟脯氨酸系列&menu_id=4&fo=3&flags=35">羟脯氨酸系列</a></li>
-
-                                                <li><a href="products.asp?BigClassID=48&bcn=糖化学&menu_id=4&fo=3&flags=36">糖化学</a></li>
-
-                                            </ul>
-                                        </li>
-
-
-                                        <li><a href="business.jsp" >业务介绍</a></li>
-                                        <li><a href="contact.jsp"  id="active" >联系我们</a>
-
-                                            <ul >
-                                                <li><a href="job.jsp" >加入我们</a></li>
-                                                <li><a href="contact.jsp">联系方式</a></li>
-                                                <li><a href="order.jsp">在线询单 </a></li>
-                                            </ul>
-
-                                        </li>
-                                        <li><a href="index_en.jsp" style="font-family: Arial, Helvetica, sans-serif">ENGLISH</a></li>
-
-                                    </ul>
-                                    <!-- end .menu -->
-                                </td>
-                            </tr>
-
-                        </table></td>
-                    </tr>
-                </table>
-                <div style="width:100%; height:4px; background:#00549c"></div>
-
-            </td>
-        </tr>
-        <tr>
-            <td align="center"><div style=" width:100%; height:350px; background:url(images/b2.jpg) center no-repeat;"></div></td>
-        </tr>
-    </table>
-
-
-    <br />
+<%@include file="header.jsp"%>
+<br />
     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
             <td align="center"><table width="1000" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -162,77 +89,7 @@
 
     </div>
     </div>
-    <div id="end" style="width:100%; clear:both;"><link href="css/css.css" rel="stylesheet" type="text/css" />
-        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#363636">
-            <tr>
-                <td height="250" align="center" valign="top"><table width="1150" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td align="center"><br />
-                            <br />
-                            <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
-                                <tr>
-                                    <td width="220" align="left" valign="top"><br />
-                                        <br />
-                                        <img src="images/ewm.png" width="100" height="100" /><br />
-                                        <br />
-                                        <img src="images/logo.png" width="102" height="100" border="0" /></td>
-                                    <td width="206" align="left" valign="top"><span class="end-font">走进氟泽 <br />
-              </span>
-                                        <span class="end-font1">
-			  <a href="file_read.jsp" class="end-font1">公司简介</a><br />
-			  <a href="news.jsp" class="end-font1">新闻中心</a><br />
-              <a href="file_read.jsp" class="end-font1">质量管理</a><br />
-              <a href="file_read.jsp" class="end-font1">设备清单</a><br />
-              <a href="reaction.jsp" class="end-font1">特色反应</a><br />
-			  <a href="business.jsp" class="end-font1">业务介绍</a><br />
-			  <a href="job.jsp" class="end-font1">加入我们</a><br />
-			  <a href="order.jsp" class="end-font1">在线询单</a><br />
-			  </span></td>
-                                    <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-
-
-
-                                        <a href="products.asp?bcn=23&fo=3" class="end-font1">原料药</a><br />
-
-                                        <a href="products.asp?bcn=35&fo=3" class="end-font1">医药中间体</a><br />
-
-                                        <a href="products.asp?bcn=37&fo=3" class="end-font1">含氟化合物</a><br />
-
-                                        <a href="products.asp?bcn=47&fo=3" class="end-font1">羟脯氨酸系列</a><br />
-
-                                        <a href="products.asp?bcn=48&fo=3" class="end-font1">糖化学</a><br />
-
-                                    </td>
-                                    <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
-
-                                        <span class="end-font1"><p>
-	上海氟泽新材料有限公司<br />
-手机：+86-17356539214<br />
-电话：+86-17356539214<br />
-邮箱：KaiGe.Chen@FluoroLuster.com<br />
-网址：www.FluoroLuster.com<br />
-地址：上海市奉贤区
-</p></td>
-                                </tr>
-                            </table></td>
-                    </tr>
-
-                </table>
-                    <br />
-                    <br /></td>
-            </tr>
-            <tr>
-                <td height="40" align="center" bgcolor="#212121"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td width="636" class="end-font2">COPYRIGHT  &copy;  2016 上海氟泽新材料有限公司 版权所有</td>
-                        <td width="372" align="right" class="end-font2">技术支持：<a href="http://www.baidu.com" target="_blank" class="end-font2">www.baidu.com Inc.</a></td>
-                    </tr>
-                </table></td>
-            </tr>
-        </table>
-    </div>
-</center>
-<a id="gototop" class="gototop" href="#" style="display: none;">↑</a>
+    <%@include file="footer.jsp"%>
 </body>
 </html>
 
