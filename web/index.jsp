@@ -191,12 +191,12 @@
         <tr>
             <td height="56" align="center" bgcolor="#F7F7F7"><table width="1000" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td align="left"><form id="form1" name="form1" method="post" action="products.asp">
+                    <td align="left"><form id="form1" name="form1" method="post" action="products.jsp">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td><input type="text" name="names" id="textfield" style="width:400px;height:30px;border:0px" placeholder="Please enter the product name or CAS!"  />
                                 </td>
-                                <td><input type="submit" name="button" id="button" value="产品搜索" style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
+                                <td><input type="submit" name="button" id="button" value="产品搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
                             </tr>
                         </table>
                     </form></td>
@@ -313,15 +313,15 @@
 
 
 
-                                        <a href="products.asp?bcn=23&fo=3" class="end-font1">原料药</a><br />
+                                        <a href="products.jsp?bcn=23&fo=3" class="end-font1">原料药</a><br />
 
-                                        <a href="products.asp?bcn=35&fo=3" class="end-font1">医药中间体</a><br />
+                                        <a href="products.jsp?bcn=35&fo=3" class="end-font1">医药中间体</a><br />
 
-                                        <a href="products.asp?bcn=37&fo=3" class="end-font1">含氟化合物</a><br />
+                                        <a href="products.jsp?bcn=37&fo=3" class="end-font1">含氟化合物</a><br />
 
-                                        <a href="products.asp?bcn=47&fo=3" class="end-font1">羟脯氨酸系列</a><br />
+                                        <a href="products.jsp?bcn=47&fo=3" class="end-font1">羟脯氨酸系列</a><br />
 
-                                        <a href="products.asp?bcn=48&fo=3" class="end-font1">糖化学</a><br />
+                                        <a href="products.jsp?bcn=48&fo=3" class="end-font1">糖化学</a><br />
 
                                     </td>
                                     <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />

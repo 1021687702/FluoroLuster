@@ -107,7 +107,7 @@
             <td align="center"><table width="1000" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
                     <td width="564" align="left" valign="top" class="now">联系我们</td>
-                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.asp?fo=1" class="contact">首页</a> /  <a href="#" class="contact">联系我们</a></span></td>
+                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp" class="contact">首页</a> /  <a href="#" class="contact">联系我们</a></span></td>
                 </tr>
             </table></td>
         </tr>
@@ -149,7 +149,7 @@
                                     </table></td>
                             </tr>
                         </table>
-                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/5a/qKaJ">
+                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/f1/coc">
                         </iframe>
                         <br />
                         <br />

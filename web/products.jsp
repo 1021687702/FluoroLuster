@@ -61,24 +61,20 @@
                                                 <li><a href="file_read.jsp >设备清单</a></li>
                                             </ul>
                                         </li>
-
                                         <li><a href="products.jsp"  id="active" >产品中心</a>
                                             <ul>
-
                                                 <li><a href="products.jsp?BigClassID=23&bcn=原料药&menu_id=4&fo=3&flags=30">原料药</a></li>
 
                                                 <li><a href="products.jsp?BigClassID=35&bcn=医药中间体&menu_id=4&fo=3&flags=31">医药中间体</a></li>
 
                                                 <li><a href="products.jsp?BigClassID=37&bcn=含氟化合物&menu_id=4&fo=3&flags=32">含氟化合物</a></li>
 
-                                                <li><a href="products.asp?BigClassID=47&bcn=羟脯氨酸系列&menu_id=4&fo=3&flags=35">羟脯氨酸系列</a></li>
+                                                <li><a href="products.jsp?BigClassID=47&bcn=羟脯氨酸系列&menu_id=4&fo=3&flags=35">羟脯氨酸系列</a></li>
 
-                                                <li><a href="products.asp?BigClassID=48&bcn=糖化学&menu_id=4&fo=3&flags=36">糖化学</a></li>
+                                                <li><a href="products.jsp?BigClassID=48&bcn=糖化学&menu_id=4&fo=3&flags=36">糖化学</a></li>
 
                                             </ul>
                                         </li>
-
-
                                         <li><a href="business.jsp" >业务介绍</a></li>
                                         <li><a href="contact.jsp" >联系我们</a>
 
