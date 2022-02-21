@@ -1,5 +1,7 @@
 <%-- Created by IntelliJ IDEA. --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
   <head>
     <title>上海氟泽新材料责任有限公司</title>
@@ -29,12 +31,19 @@
 
   </head>
   <body>
-  <form id="form1" name="form1" method="post" action="/FluoroLuster/ProductsServlet?method=queryProductsById">
+  <form id="form1" name="form1" method="post" action="ProductsServlet?method=queryProductsById">
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td><input type="text" name="names" id="textfield" style="width:400px;height:30px;border:3px #004cab solid" placeholder="Please enter the product name or CAS!"  /></td>
-        <td><input type="submit" name="button" id="button" value="产品搜索" style="width:80px;height:38px;color:#FFF; background-color:#004cab;border:0px"/></td>
+        <td><input type="text" name="ProductId" id="id" style="width:400px;height:30px;border:3px #004cab solid" placeholder="Please enter the product name or CAS!"  /></td>
+        <td><input type="submit" value="产品搜索" style="width:80px;height:38px;color:#FFF; background-color:#004cab;border:0px"/></td>
       </tr>
+      <c:forEach var="product" items="${products}" varStatus="i" >
+      <tr>
+        <td>${product.id}</td>
+        <td>${product.name}</td>
+        <td>${product.description}</td>
+      </tr>
+      </c:forEach>
     </table>
   </form>
 

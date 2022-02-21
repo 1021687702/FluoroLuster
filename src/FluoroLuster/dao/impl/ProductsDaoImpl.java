@@ -4,11 +4,16 @@ import FluoroLuster.bean.Product;
 import FluoroLuster.dao.ProductsDao;
 import FluoroLuster.util.DBUtil;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ProductsDaoImpl implements ProductsDao {
 
     @Override
-    public Product queryProductsById(int id) {
-        String sql = "select * from t_products where id=?";
-        return DBUtil.queryByCondition(sql, Product.class, id).get(0);
+    public List<Product> queryProductsById(String name) {
+/*          String sql = "select * from Products where 1=1";*/
+        String sql = "select * from Products where id = ? or name like ?";
+        String n = "%" + name + "%";
+         return DBUtil.queryByCondition(sql, Product.class,name,n);
     }
 }

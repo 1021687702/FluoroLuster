@@ -20,8 +20,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat" level="application_server_libraries" />
-    <orderEntry type="library" name="servlet-api" level="application" />
-    <orderEntry type="library" name="c3p0-0.9.5.2" level="application" />
-    <orderEntry type="library" name="commons-beanutils-1.9.3" level="application" />
+    <orderEntry type="library" name="lib" level="application" />
   </component>
 </module>

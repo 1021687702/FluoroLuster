@@ -8,16 +8,22 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 public class ProductsServlet extends BaseServlet{
     private ProductsService productsService = new ProductsServiceImpl();
 
     //根据id号查询商品
     public void queryProductsById(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
-        String id = request.getParameter("id");
-        int gid = Integer.parseInt(id);
-        Product product = productsService.queryProductsById(gid);
-        request.setAttribute("product", product);
-        request.getRequestDispatcher("index3.jsp").forward(request, resp);
+        String id = request.getParameter("ProductId");
+        List<Product> products = productsService.queryProductsById(id);
+        for (int i = 0; i < products.size(); i++) {
+            Product product= products.get(i);
+            System.out.println(product.getId());
+
+                  }
+        System.out.println(products);
+        request.setAttribute("products", products);
+        request.getRequestDispatcher("/index3.jsp").forward(request, resp);
     }
 }

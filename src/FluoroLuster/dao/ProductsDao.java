@@ -2,6 +2,8 @@ package FluoroLuster.dao;
 
 import FluoroLuster.bean.Product;
 
+import java.util.List;
+
 public interface ProductsDao {
-    Product queryProductsById(int id);
+    List<Product> queryProductsById(String name);
 }

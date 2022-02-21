@@ -30,7 +30,7 @@ public class DBUtil {
 	        // 璁剧疆杩炴帴鏁版嵁搴撻渶瑕佺殑閰嶇疆淇℃伅
 	        try {
 	            dataSource.setDriverClass("com.mysql.jdbc.Driver");
-	            dataSource.setJdbcUrl("jdbc:mysql:///cms");
+	            dataSource.setJdbcUrl("jdbc:mysql:///cms?characterEncoding=utf-8&useSSL=false");
 	            dataSource.setUser("root");
 	            dataSource.setPassword("123456");
 	            //2.璁剧疆杩炴帴姹犵殑鍙傛暟
