@@ -13,17 +13,15 @@ import java.util.List;
 public class ProductsServlet extends BaseServlet{
     private ProductsService productsService = new ProductsServiceImpl();
 
+
     //根据id号查询商品
     public void queryProductsById(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
-        String id = request.getParameter("ProductId");
+        String id = request.getParameter("Products");
         List<Product> products = productsService.queryProductsById(id);
         for (int i = 0; i < products.size(); i++) {
             Product product= products.get(i);
-            System.out.println(product.getId());
-
-                  }
-        System.out.println(products);
+        }
         request.setAttribute("products", products);
-        request.getRequestDispatcher("/index3.jsp").forward(request, resp);
+        request.getRequestDispatcher("/products.jsp").forward(request, resp);
     }
 }

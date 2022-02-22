@@ -28,7 +28,7 @@
                                     </style>
 
                                     <ul id="menu">
-                                        <li><a href="index3.jsp"  >首页</a></li>
+                                        <li><a href="index.jsp"  >首页</a></li>
                                         <li><a href="file_read.jsp"  >关于我们</a>
                                             <ul >
                                                 <li><a href="file_read.jsp" >公司简介</a></li>
@@ -37,16 +37,12 @@
                                             </ul>
                                         </li>
 
-                                        <li><a href="products.jsp" >产品中心</a>
+                                        <li><a href="ProductsServlet?method=queryProductsById" >产品中心</a>
                                             <ul>
-
                                                 <li><a href="products.jsp?">液态化合物</a></li>
-
                                                 <li><a href="products.jsp?">固态化合物</a></li>
-
                                             </ul>
                                         </li>
-
                                         <li><a href="business.jsp" >业务介绍</a></li>
                                         <li><a href="contact.jsp" >联系我们</a>
                                             <ul >
@@ -54,7 +50,6 @@
                                                 <li><a href="contact.jsp">联系方式</a></li>
                                                 <li><a href="order.jsp">在线询单 </a></li>
                                             </ul>
-
                                         </li>
                                         <li><a href="index_en.jsp" style="font-family: Arial, Helvetica, sans-serif">ENGLISH</a></li>
 

@@ -36,14 +36,8 @@
 			  <a href="order.jsp?fo=6" class="end-font1">在线询单</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-
-
-
                                     <a href="products.jsp?bcn=23&fo=3" class="end-font1">液态化合物</a><br />
-
                                     <a href="products.jsp?bcn=35&fo=3" class="end-font1">固态化合物</a><br />
-
-
                                 </td>
                                 <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
 
