@@ -22,6 +22,7 @@ public class ProductsServlet extends BaseServlet{
             Product product= products.get(i);
         }
         request.setAttribute("products", products);
+        request.setAttribute("flag", "true");
         request.getRequestDispatcher("/products.jsp").forward(request, resp);
     }
 }

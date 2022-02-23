@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: Asus
   Date: 2022/2/17
@@ -51,6 +51,12 @@
                         <td><input type="submit" name="button" id="button" value="产品搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
                     </tr>
                 </table>
+                <%
+                    boolean flag = true;
+                    if (((List) (request.getAttribute("products"))).size() != 0) {
+                        flag = false;
+                    }
+                %>
             </form>
             </td>
         </tr>
@@ -105,9 +111,13 @@
 <%@include file="footer.jsp"%>
 </body>
 <script>
-    function submit() {
-        $("#button").submit()
-    }
+    $(function()
+    {
+        if(<%=flag%>)
+        {
+            $("#form1").submit()
+        }
+    })
 </script>
 </html>
 
