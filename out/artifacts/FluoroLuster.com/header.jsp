@@ -37,7 +37,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><form id="form1" name="form1" method="post" action="ProductsServlet?method=queryProductsById"><input type="submit" value="产品中心"></form>
+                                        <li><a href="ProductsServlet?method=queryProductsById" >产品中心</a>
                                             <ul>
                                                 <li><a href="products.jsp?">液态化合物</a></li>
                                                 <li><a href="products.jsp?">固态化合物</a></li>

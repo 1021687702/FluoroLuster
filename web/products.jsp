@@ -72,6 +72,11 @@
     </table>
     <br />
     <br />
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<base href="<%=basePath%>">
     <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
             <td align="center" class="about-abont">
@@ -84,9 +89,9 @@
                     </tr>
                 <c:forEach var="product" items="${products}" varStatus="i" >
                     <tr>
-                        <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="product_show.jsp?id=43&fo=3" class="content"><a href="product_show.jsp?id=${product.id}" />${product.id}</a></td>
-                        <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="product_show.jsp?name=${product.name}" />${product.name}</td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;${product.description}</span></td>
+                        <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="ProductsServlet?method=queryProductsDetailById&id=${product.id}">${product.id}</a></td>
+                        <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp</span><a href="product_show.jsp?name=${product.name}"></a>${product.name}</td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.description}</span></td>
                         <td width="153" height="20" align="center" valign="middle" class="about-font"><span class="STYLE15"><a href="order.jsp?names=4,4&#39;-Diaminobenzophenone&amp;id=43&fo=6" target="_blank" class="left-menu"><img src="images/linkPfeil.gif" width="11" height="11" border="0" /> &nbsp;&nbsp;在线询单</a></span></td>
                     </tr>
                 </c:forEach>

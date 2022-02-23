@@ -21,19 +21,19 @@
 <%@include file="header.jsp"%>
     <br />
     <br />
-    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
 
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
-            <td height="30" align="left" class="about-font"><span class="news-title">产品名称 ：</span>3-Chloro-2-(trifluoromethyl)-2-iodo-1,1,1-trifluoropropane</td>
+            <td height="30" align="left" class="about-font"><span class="news-title">产品编号 ：</span>${product.id}</td>
         </tr>
         <tr>
             <td align="left"><br />
                 <table width="100%" border="0" align="center" cellpadding="8" cellspacing="1" bgcolor="#ddd">
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">产品编号：<strong>LFF00019</strong> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">产品名称：<strong>${product.name}</strong> </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font-en">CAS No.：<strong>240122-22-9</strong></span> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font-en">产品描述：<strong>${product.description}</strong></span> </td>
                     </tr>
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">纯度
@@ -44,7 +44,7 @@
                             : </strong> <img src="../boss/img/201662910154.jpg" /></td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">详情：,, , </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">${product_detail.description} </td>
                     </tr>
                     <tr>
                         <td width="7%" align="left" bgcolor="#FFFFFF" class="about-font"><a href="order.jsp?names=3-Chloro-2-(trifluoromethyl)-2-iodo-1,1,1-trifluoropropane&fo=6" target="_blank" class="gengduo"><img src="images/gwc.jpg" width="29" height="27" border="0" /></a></td>
@@ -65,5 +65,6 @@
    <%@include file="footer.jsp"%>
 
 </body>
+
 
 </html>
