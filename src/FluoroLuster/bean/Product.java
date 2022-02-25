@@ -6,6 +6,16 @@ public class Product {
     private int id;
     private String name;
     private String description;
+    private String purity;
+
+    public String getPurity() {
+        return purity;
+    }
+
+    public void setPurity(String purity) {
+        this.purity = purity;
+    }
+
 
     public int getId() {
         return id;

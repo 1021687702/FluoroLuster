@@ -37,7 +37,7 @@
                     </tr>
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">纯度
-                            ：<strong></strong> </td>
+                            ：<strong>${product.purity}</strong> </td>
                     </tr>
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">结构式
