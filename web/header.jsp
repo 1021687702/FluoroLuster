@@ -32,8 +32,6 @@
                                         <li><a href="file_read.jsp"  >关于我们</a>
                                             <ul >
                                                 <li><a href="file_read.jsp" >公司简介</a></li>
-                                                <li><a href="file_read.jsp">质量管理</a></li>
-                                                <li><a href="file_read.jsp" >设备清单</a></li>
                                             </ul>
                                         </li>
 
@@ -43,7 +41,7 @@
                                                 <li><a href="products.jsp?">溶液</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="business.jsp" >业务介绍</a></li>
+                                        <li><a href="business.jsp" >技术优势</a></li>
                                         <li><a href="contact.jsp" >联系我们</a>
                                             <ul >
                                                 <li><a href="contact.jsp">联系方式</a></li>

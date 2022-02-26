@@ -32,4 +32,11 @@ public class ProductsServlet extends BaseServlet{
         request.setAttribute("product", product);
         request.getRequestDispatcher("/product_show.jsp").forward(request, resp);
     }
+    //根据id号查询商品详情
+    public void queryProductsDetailByType(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+        String type = request.getParameter("type");
+        List<Product> products = productsService.queryProductsDetailByType(type);
+        request.setAttribute("products", products);
+        request.getRequestDispatcher("/products.jsp").forward(request, resp);
+    }
 }

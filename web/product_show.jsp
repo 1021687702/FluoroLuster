@@ -36,20 +36,10 @@
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font-en">产品描述：<strong>${product.description}</strong></span> </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">纯度
-                            ：<strong>${product.purity}</strong> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">图片描述 : </strong> ${product.picture}</td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">结构式
-                            : </strong> <img src="../boss/img/201662910154.jpg" /></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">${product.description} </td>
-                    </tr>
-                    <tr>
-                        <td width="7%" align="left" bgcolor="#FFFFFF" class="about-font"><a href="order.jsp?names=3-Chloro-2-(trifluoromethyl)-2-iodo-1,1,1-trifluoropropane&fo=6" target="_blank" class="gengduo"><img src="images/gwc.jpg" width="29" height="27" border="0" /></a></td>
-                        <td width="11%" align="left" bgcolor="#FFFFFF" class="about-font"><a href="order.jsp?names=3-Chloro-2-(trifluoromethyl)-2-iodo-1,1,1-trifluoropropane&fo=6" target="_blank" class="gengduo">在线询单</a></td>
-                        <td width="82%" align="left" bgcolor="#FFFFFF" class="about-font">如果产品暂时缺货，请发送邮件到 <a href="mailto:Lynnchen@lifebiology.cn" class="about-font-en">market@lifebiology.cn</a> ，当我们有存货时会及时联系您。</td>
+                        <td width="82%" align="left" bgcolor="#FFFFFF" class="about-font">如果产品暂时缺货，请发送邮件到 <a href="mailto:Lynnchen@lifebiology.cn" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
                     </tr>
                 </table></td>
         </tr>
