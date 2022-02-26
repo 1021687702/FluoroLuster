@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>上海氟泽新材料有限公司 | 氟泽新材料</title>
+    <title>上海氟泽新材料有限责任公司 | 氟泽新材料</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="renderer" content="webkit">
     <link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon"  />
@@ -48,9 +48,9 @@
                         <td width="488" rowspan="3" align="right"><img src="images/fenlei-bg.jpg" width="440" height="456" /></td>
                     </tr>
                     <tr>
-                        <td align="left"><p class="about-font" > 氟泽新材料有限公司位于上海市工业综合开发区，氟泽生物是一家以技术为导向，为客户提供优质服务的高新技术企业，公司通过ISO认证，执行6S质量标准。<br />
-                            我们可以提供克级定制到吨位生产服务，致力于含氟手性化合物，抗病毒、抗血凝和降糖类产品及其中间体的研发，生产和销售。<br />
-                            上海研发中心约2000㎡，可满足化合物定制，工艺开发，工艺优化，工艺验证等要求；生产工厂配套GMP生产车间，已取得药品生产许可证，拥有无尘洁净车间和各种先进的分析仪器，能稳定商业化生产原料药及中间体化合物；自有工厂正在筹建。...</p></td>
+                        <td align="left"><p class="about-font" > 氟泽新材料有限公司位于上海市工业综合开发区，国内独家全自主专利技术特种氟树脂生产商，所生产的产品是氟材料中附加值最高、技术难度最大的品类，广泛应用于半导体、新型显示、高端医疗、高端制造、军工及航空航天领域。国内独家全自主专利技术特种氟树脂生产商，所生产的产品是氟材料中附加值最高、技术难度最大的品类，广泛应用于半导体、新型显示、高端医疗、高端制造、军工及航空航天领域。<br />
+                            在液相一步法直接氟化技术， 非晶态全氟材料聚合技术和纳米级全氟 分离膜技术三个领域，均为中国的技术 垄断。 具备极强的独立开发、产品订制化能力和专利布局能力，具备基于不同应用场景和制程的分子设计和结构调变核心技术，对材料的耐热、分离性能、涂覆性、透气率等指标做出精准的调控，以满足不同领域客户需要，并随时根据产业链研发的最新进展制定新产品研发策略，快速进行技术迭代。
+                            公司业务全产业链覆盖，专利布局完整工艺链 ，从原材料到成品均在中国大陆完成</p></td>
                     </tr>
                     <tr>
                         <td align="left"><img src="images/equip.jpg" width="462" height="210" /></td>
@@ -79,7 +79,7 @@
                     <tr>
                         <td align="center"><table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td height="50" align="center" class="title4"><p class="title4" >高端医药原料药和中间体<br />
+                                <td height="50" align="center" class="title4"><p class="title4" >非晶态全氟溶液<br />
                                 </p></td>
                             </tr>
                         </table></td>
@@ -92,7 +92,7 @@
                     <tr>
                         <td align="left"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td height="50" align="center" class="title4"><p class="title4" >高端含氟系列产品<br />
+                                <td height="50" align="center" class="title4"><p class="title4" >高端医疗器械涂层<br />
                             </tr>
 
                         </table></td>
@@ -105,8 +105,8 @@
                     <tr>
                         <td align="center"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td align="center" class="title5"><p class="title5" >羟脯氨基酸及其衍生物，</p>
-                                    <p class="title5" >糖化学的研发，生产和销售</p>
+                                <td align="center" class="title5"><p class="title5" >纳米级氟气体分离膜，</p>
+                                    <p class="title5" >低损耗全氟塑料光纤</p>
                                 </td>
                             </tr>
                         </table></td>

@@ -20,34 +20,26 @@
                         <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td width="220" align="left" valign="top"><br />
-                                    <br />
-                                    <img src="images/qrcode.png" width="100" height="100" /><br />
-                                    <br />
-                                    <img src="images/logo.png" width="102" height="58" border="0" /></td>
+                                    <img src="images/logo.png" width="204" height="116" border="0" /></td>
                                 <td width="206" align="left" valign="top"><span class="end-font">走进氟泽 <br />
               </span>
                                     <span class="end-font1">
 			  <a href="file_read.jsp?ID=7&fo=2" class="end-font1">公司简介</a><br />
-              <a href="file_read.jsp?ID=8&fo=2" class="end-font1">质量管理</a><br />
-              <a href="file_read.jsp?ID=9&fo=2" class="end-font1">设备清单</a><br />
               <a href="reaction.jsp?id=10&fo=4" class="end-font1">特色反应</a><br />
 			  <a href="business.jsp?id=11&fo=5&flags=7" class="end-font1">业务介绍</a><br />
-			  <a href="job.jsp?fo=6" class="end-font1">加入我们</a><br />
-			  <a href="order.jsp?fo=6" class="end-font1">在线询单</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-                                    <a href="products.jsp?bcn=23&fo=3" class="end-font1">液态化合物</a><br />
-                                    <a href="products.jsp?bcn=35&fo=3" class="end-font1">固态化合物</a><br />
+                                    <a href="products.jsp?bcn=23&fo=3" class="end-font1">粉末</a><br />
+                                    <a href="products.jsp?bcn=35&fo=3" class="end-font1">溶液</a><br />
                                 </td>
                                 <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
 
                                     <span class="end-font1"><p>
-	上海氟泽新材料有限公司<br />
-手机：+86-88888888888&nbsp;+86-88888888888<br />
-电话：+86-21-88888888<br />
-邮箱：KaiGe@FluoroLuster.com<br />
+	上海氟泽新材料有限责任公司<br />
+手机：+86-13761960780&nbsp<br />
+邮箱：409135467@qq.com<br />
 网址：http://www.FluoroLuster.com<br />
-地址：上海市奉贤区
+地址：上海市奉贤区远东路799号1号楼1楼
 </p></td>
                             </tr>
                         </table></td>
@@ -60,7 +52,7 @@
         <tr>
             <td height="40" align="center" bgcolor="#212121"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="636" class="end-font2">COPYRIGHT  &copy;  2016 上海氟泽新材料有限公司 版权所有</td>
+                    <td width="636" class="end-font2">COPYRIGHT  &copy;  2016 上海氟泽新材料有限责任公司 版权所有</td>
                     <td width="372" align="right" class="end-font2">技术支持：<a href="http://www.chemindustry.com" target="_blank" class="end-font2">ChemIndustry.com Inc.</a></td>
                 </tr>
             </table></td>

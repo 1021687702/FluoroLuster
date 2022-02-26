@@ -4,7 +4,7 @@
 
 <html>
   <head>
-    <title>上海氟泽新材料责任有限公司</title>
+    <title>上海氟泽新材料有限责任公司</title>
     <style>
 
       #menu {height: 100px;width: 850px;z-index: 99999;position: relative}

@@ -10,14 +10,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>上海氟泽新材料有限公司 | 氟泽新材料</title>
+    <title>上海氟泽新材料有限责任公司 | 氟泽新材料</title>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
     <meta name="renderer" content="webkit">
     <link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon"  />
     <link rel="Bookmark" href="images/favicon.ico" />
-    <meta name="Description" content="上海氟泽新材料有限公司注册在上海张江金山高科技产业园（为张江集团成员单位）。
-上海氟泽新材料有限公司主要涉足领域包括含氟化合物，特殊氨基酸，多肽生物制品，高端化学试剂，临床在研新型药物分子化合物及Apis。我们的技术团队由留美博士牵头，配合专业的销售服务小组，可以提供克级到吨级的CRO和CMO业务，尤其是含氟化合物领域。我们在上海有50多亩制药级合作工厂，配备先进齐全的检测设备，可满足研发，中试，生产的需求。">
-    <meta name="Keywords" content="上海氟泽新材料有限公司, 氟泽新材料,氟泽,含氟化合物,特殊氨基酸,多肽生物制品,高端化学试剂,临床在研新型药物分子化合物,Apis...">
+    <meta name="Description" content="氟泽新材料有限公司注册在上海。
+国内独家全自主专利技术特种氟树脂生产商，所生产的产品是氟材料中附加值最高、技术难度最大的品类，广泛应用于半导体、新型显示、高端医疗、高端制造、军工及航空航天领域。。">
+    <meta name="Keywords" content="上海氟泽新材料有限责任公司, 氟泽新材料,氟泽,含氟化合物,特殊氨基酸,多肽生物制品,高端化学试剂,临床在研新型药物分子化合物,Apis...">
 
     <link href="css/css.css"  rel="stylesheet" type="text/css"  />
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -59,18 +59,17 @@
                                 <td align="right" valign="top" class="file"><br />
                                     <table width="95%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td height="60" align="left" class="contact-title">上海氟泽新材料有限公司</td>
+                                            <td height="60" align="left" class="contact-title">上海氟泽新材料有限责任公司</td>
                                         </tr>
                                     </table>
                                     <table width="94%" border="0" align="right" cellpadding="0" cellspacing="0">
                                         <tr>
                                             <td align="left" class="contact-Content"><p>
-                                                上海氟泽新材料有限公司<br />
-                                                手机:+86-17356539214<br />
-                                                电话：+86-17356539214<br />
-                                                邮箱：KaiGe.Chen@FluoroLuster.com<br />
+                                                上海氟泽新材料有限责任公司<br />
+                                                手机:+86-13761960780<br />
+                                                邮箱：409135467@qq.com<br />
                                                 网址：www.FluoroLuster.com<br />
-                                                地址：上海市奉贤区
+                                                地址：上海市奉贤区远东路799号1号楼1楼
                                             </p></td>
                                         </tr>
                                     </table></td>

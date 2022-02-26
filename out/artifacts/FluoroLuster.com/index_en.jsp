@@ -29,7 +29,7 @@
     <meta name="Description" content="KaiGe Bio-Tech Co., LTD,registered in Shanghai Zhangjiang Jinshan Hi-tech Industry Park（Member of Zhangjiang Group）.
 KaiGe Biological Technology co., LTD.,  Mainly involved in areas including：Fluoride compounds , Special amino acids , Peptides and Biological products, High-end chemical reagent, In clinical research of new drug molecules and Apis。
 Our technical team led by Postdoctoral of USA, with professional sales and service team, can provide g level to the tonnage of CRO and CMO business, especially fluoride compounds. ">
-    <meta name="Keywords" content="KaiGe Bio-Tech Co., LTD,Fluoride compounds , Special amino acids,Peptides and Biological products,High-end chemical reagent,In clinical research of new drug molecules,Apis,上海氟泽新材料有限公司, 氟泽新材料,氟泽,含氟化合物,特殊氨基酸,多肽生物制品,高端化学试剂,临床在研新型药物分子化合物,Apis...">
+    <meta name="Keywords" content="KaiGe Bio-Tech Co., LTD,Fluoride compounds , Special amino acids,Peptides and Biological products,High-end chemical reagent,In clinical research of new drug molecules,Apis,上海氟泽新材料有限责任公司, 氟泽新材料,氟泽,含氟化合物,特殊氨基酸,多肽生物制品,高端化学试剂,临床在研新型药物分子化合物,Apis...">
 
     <link href="css/css.css"  rel="stylesheet" type="text/css"  />
     <link href="css/qiehuan.css" rel="stylesheet" type="text/css" />
