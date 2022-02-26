@@ -36,18 +36,18 @@
 			  <a href="order.jsp?fo=6" class="end-font1">在线询单</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-                                    <a href="products.jsp?bcn=23&fo=3" class="end-font1">液态化合物</a><br />
-                                    <a href="products.jsp?bcn=35&fo=3" class="end-font1">固态化合物</a><br />
+                                    <a href="products.jsp?bcn=23&fo=3" class="end-font1">粉末</a><br />
+                                    <a href="products.jsp?bcn=35&fo=3" class="end-font1">溶液</a><br />
                                 </td>
                                 <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
 
                                     <span class="end-font1"><p>
 	上海氟泽新材料有限公司<br />
-手机：+86-88888888888&nbsp;+86-88888888888<br />
-电话：+86-21-88888888<br />
+手机：+86-13761960780&nbsp<br />
+电话：+86-21-13761960780<br />
 邮箱：KaiGe@FluoroLuster.com<br />
 网址：http://www.FluoroLuster.com<br />
-地址：上海市奉贤区
+地址：上海市奉贤区远东路799号1号楼1楼
 </p></td>
                             </tr>
                         </table></td>

@@ -65,7 +65,7 @@
                 <div id="pro-fenlei" >
                     <ul>
                         <li><a href="products.jsp" >固态粉末</a></li>
-                        <li><a href="products.jsp">液体</a></li>
+                        <li><a href="products.jsp">溶液</a></li>
                     </ul>
                 </div></td>
         </tr>

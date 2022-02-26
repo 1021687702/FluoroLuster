@@ -66,7 +66,7 @@
                                         <tr>
                                             <td align="left" class="contact-Content"><p>
                                                 上海氟泽新材料有限公司<br />
-                                                手机：+86-17356539214<br />
+                                                手机:+86-17356539214<br />
                                                 电话：+86-17356539214<br />
                                                 邮箱：KaiGe.Chen@FluoroLuster.com<br />
                                                 网址：www.FluoroLuster.com<br />
@@ -76,7 +76,7 @@
                                     </table></td>
                             </tr>
                         </table>
-                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/f1/coc">
+                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/09/lh8c">
                         </iframe>
                         <br />
                         <br />

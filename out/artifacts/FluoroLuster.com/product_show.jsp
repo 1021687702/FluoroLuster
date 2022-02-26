@@ -37,14 +37,14 @@
                     </tr>
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">纯度
-                            ：<strong></strong> </td>
+                            ：<strong>${product.purity}</strong> </td>
                     </tr>
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">结构式
                             : </strong> <img src="../boss/img/201662910154.jpg" /></td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">${product_detail.description} </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">${product.description} </td>
                     </tr>
                     <tr>
                         <td width="7%" align="left" bgcolor="#FFFFFF" class="about-font"><a href="order.jsp?names=3-Chloro-2-(trifluoromethyl)-2-iodo-1,1,1-trifluoropropane&fo=6" target="_blank" class="gengduo"><img src="images/gwc.jpg" width="29" height="27" border="0" /></a></td>
