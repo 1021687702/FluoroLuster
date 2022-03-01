@@ -1,4 +1,5 @@
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.sql.ClientInfoStatus" %><%--
   Created by IntelliJ IDEA.
   User: Asus
   Date: 2022/2/17
@@ -92,7 +93,7 @@
                         <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="ProductsServlet?method=queryProductsDetailById&id=${product.id}">${product.id}</a></td>
                         <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp</span><a href="product_show.jsp?name=${product.name}"></a>${product.name}</td>
                         <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.type}</span></td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.field}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content"><c:if test="${product.field}==1">生物芯片</c:if> ${product.field}</span></td>
                     </tr>
                 </c:forEach>
             </table>
@@ -123,6 +124,8 @@
             $("#form1").submit()
         }
     })
+
+    $()
 </script>
 </html>
 

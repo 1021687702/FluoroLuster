@@ -1,4 +1,5 @@
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.sql.ClientInfoStatus" %><%--
   Created by IntelliJ IDEA.
   User: Asus
   Date: 2022/2/17
@@ -64,8 +65,8 @@
             <td align="center" valign="top">
                 <div id="pro-fenlei" >
                     <ul>
-                        <li><a href="products.jsp" >固态粉末</a></li>
-                        <li><a href="products.jsp">溶液</a></li>
+                        <li><a href="ProductsServlet?method=queryProductsDetailByType&type=粉末" >粉末</a></li>
+                        <li><a href="ProductsServlet?method=queryProductsDetailByType&type=溶液">溶液</a></li>
                     </ul>
                 </div></td>
         </tr>
@@ -84,13 +85,15 @@
                     <tr>
                         <td width="155" height="40" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE14 STYLE2"><span class="content">&nbsp;&nbsp;</span><span class="STYLE2">产品编号</span></span></td>
                         <td width="375" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE14 STYLE2"><span class="content">&nbsp;&nbsp;</span><span class="STYLE2">产品名称</span></span></td>
-                        <td height="25" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE2"><span class="content">&nbsp;&nbsp;</span>CAS No. </span></td>
+                        <td height="25" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE2"><span class="content">&nbsp;&nbsp;</span>产品类型 </span></td>
+                        <td height="25" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE2"><span class="content">&nbsp;&nbsp;</span>所属领域 </span></td>
                     </tr>
                 <c:forEach var="product" items="${products}" varStatus="i" >
                     <tr>
                         <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="ProductsServlet?method=queryProductsDetailById&id=${product.id}">${product.id}</a></td>
                         <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp</span><a href="product_show.jsp?name=${product.name}"></a>${product.name}</td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.description}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.type}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content"><c:if test="${product.field}==1">生物芯片</c:if> ${product.field}</span></td>
                     </tr>
                 </c:forEach>
             </table>
@@ -121,6 +124,8 @@
             $("#form1").submit()
         }
     })
+
+    $()
 </script>
 </html>
 

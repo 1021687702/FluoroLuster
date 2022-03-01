@@ -68,13 +68,13 @@
                                                             <tr>
                                                                 <td height="50" align="center" class="title4">
                                                                     <p class="title4">
-                                                                        常规产品
+                                                                        非晶态全氟溶液
                                                                     </p>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="left" class="about-font1">
-                                                                    特殊氨基酸，多肽生物制品，高端化学试剂，临床在研新型药物分子化合物及Apis。
+                                                                    树脂目前常规下提供三种型号：T8、T6、T3,分别适应不同应用场景，但是也可以根据不同应用场景实现材料的灵活订制，以最大限度发挥其特性优势
                                                                 </td>
                                                             </tr>
                                                             </tbody>
