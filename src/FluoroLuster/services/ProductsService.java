@@ -7,5 +7,5 @@ import java.util.List;
 public interface ProductsService {
     List<Product> queryProductsById(String name);
     Product queryProductsDetailById(String id);
-    List<Product> queryProductsDetailByType(String type);
+    List<Product> queryProductsByField(String field);
 }

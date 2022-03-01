@@ -24,8 +24,8 @@ public class ProductsDaoImpl implements ProductsDao {
     }
 
     @Override
-    public List<Product> queryProductsDetailByType(String type) {
-        String sql = "select * from Products where type = ?";
+    public List<Product> queryProductsByField(String type) {
+        String sql = "select * from Products where field = ?";
         return DBUtil.queryByCondition(sql, Product.class,type);
     }
 }

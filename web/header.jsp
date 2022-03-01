@@ -37,8 +37,14 @@
 
                                         <li><a href="ProductsServlet?method=queryProductsById" >产品中心</a>
                                             <ul>
-                                                <li><a href="products.jsp?">粉末</a></li>
-                                                <li><a href="products.jsp?">溶液</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=1">生物芯片</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=2">电子芯片光阻</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=3">纳米级氟气体分离膜</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=4">低损耗全氟塑料光纤</a></li>
+                                                <li><a href="products.jsp?">光刻机散射片</a></li>
+                                                <li><a href="products.jsp?">高端医疗器械涂层</a></li>
+                                                <li><a href="products.jsp?">柔性显示基材</a></li>
+                                                <li><a href="products.jsp?">OLED封装材料</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="business.jsp" >技术优势</a></li>
