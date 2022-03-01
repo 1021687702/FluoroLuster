@@ -7,3 +7,36 @@ insert into products(id,name,field,type) values (1,'粉末S33','这是粉末S33�
 CREATE TABLE product_detail (id int primary key ,name varchar(20) not null ,picture varchar(20),description varchar(20) );
 insert into product_detail(id, name, picture, description) values (1,'粉末S33','图片1','这是粉末S33的简介'),(2,'溶液T3','图片2','这是溶液T3'),(3,'溶液T6','图片3','这是溶液T6%'),
 (4,'溶液T8','图片4','这是溶液T8')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
