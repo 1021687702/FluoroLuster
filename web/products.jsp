@@ -49,7 +49,7 @@
                     <tr>
                         <td><input type="text" name="Products" id="textfield" style="width:400px;height:30px;border:1px" placeholder="Please enter the product name or CAS!"  />
                         </td>
-                        <td><input type="submit" name="button" id="button" value="产品搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
+                        <td><input type="submit" name="button" id="button" value="关键字搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
                     </tr>
                 </table>
                 <%

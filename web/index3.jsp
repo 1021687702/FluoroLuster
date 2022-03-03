@@ -36,7 +36,7 @@
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td><input type="text" name="ProductId" id="id" style="width:400px;height:30px;border:3px #004cab solid" placeholder="Please enter the product name or CAS!"  /></td>
-        <td><input type="submit" value="产品搜索" style="width:80px;height:38px;color:#FFF; background-color:#004cab;border:0px"/></td>
+        <td><input type="submit" value="关键字搜索" style="width:80px;height:38px;color:#FFF; background-color:#004cab;border:0px"/></td>
       </tr>
       <c:forEach var="product" items="${products}" varStatus="i" >
       <tr>
