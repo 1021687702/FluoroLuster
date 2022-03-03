@@ -41,9 +41,9 @@
                                                 <li><a href="ProductsServlet?method=queryProductsByField&field=2">电子芯片光阻</a></li>
                                                 <li><a href="ProductsServlet?method=queryProductsByField&field=3">纳米级氟气体分离膜</a></li>
                                                 <li><a href="ProductsServlet?method=queryProductsByField&field=4">低损耗全氟塑料光纤</a></li>
-                                                <li><a href="products.jsp?">3D打印离型膜</a></li>
-                                                <li><a href="products.jsp?">高端医疗器械涂层</a></li>
-                                                <li><a href="products.jsp?">显示基材</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=5">3D打印离型膜</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=6">高端医疗器械涂层</a></li>
+                                                <li><a href="ProductsServlet?method=queryProductsByField&field=7">显示基材</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="business.jsp" >技术优势</a></li>
