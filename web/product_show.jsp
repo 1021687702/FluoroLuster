@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>上海氟泽新材料有限责任公司 | 氟泽新材料</title>
@@ -21,14 +22,18 @@
 <%@include file="header.jsp"%>
     <br />
     <br />
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
 
-    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+
         <tr>
+<%--
             <td height="30" align="left" class="about-font"><span class="news-title">产品编号 ：</span>${product.id}</td>
+--%>
         </tr>
         <tr>
             <td align="left"><br />
                 <table width="100%" border="0" align="center" cellpadding="8" cellspacing="1" bgcolor="#ddd">
+                    <c:forEach var="product" items="${products}" varStatus="i" >
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">产品名称：<strong>${product.name}</strong> </td>
                     </tr>
@@ -41,9 +46,13 @@
                     <tr>
                         <td width="82%" height="200px" align="left" bgcolor="#FFFFFF" class="about-font"><img src="images/${product.picture}"><br>${product.description}<br>如果产品暂时缺货，请发送邮件到 <br><a href="" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
                     </tr>
-                </table></td>
+                    </c:forEach>
+                </table>
+            </td>
         </tr>
+
     </table>
+
     <br />
     <br />
     <br />

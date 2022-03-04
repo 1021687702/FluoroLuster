@@ -21,23 +21,6 @@
 
 <body>
 <%@ include file="header.jsp"%>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td height="56" align="center" bgcolor="#F7F7F7"><table width="1000" border="0" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td align="left"><form id="form1" name="form1" method="post" action="ProductsServlet?method=queryProductsById">
-                        <table border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td><input type="text" name="Products" id="textfield" style="width:400px;height:30px;border:0px" placeholder="Please enter the product name or CAS!"  />
-                                </td>
-                                <td><input type="submit" name="button" id="button" value="关键字搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
-                            </tr>
-                        </table>
-                    </form></td>
-                </tr>
-            </table></td>
-        </tr>
-    </table>
     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
             <td align="center"><br />

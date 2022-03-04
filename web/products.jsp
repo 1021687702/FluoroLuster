@@ -1,11 +1,4 @@
 <%@ page import="java.util.List" %>
-<%@ page import="java.sql.ClientInfoStatus" %><%--
-  Created by IntelliJ IDEA.
-  User: Asus
-  Date: 2022/2/17
-  Time: 22:51
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,14 +37,7 @@
     <table width="980" height="50" border="0" cellpadding="0" cellspacing="0">
         <tr>
             <td>
-            <form id="form1" name="form1" method="post" action="ProductsServlet?method=queryProductsById">
-                <table border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td><input type="text" name="Products" id="textfield" style="width:400px;height:30px;border:1px" placeholder="Please enter the product name or CAS!"  />
-                        </td>
-                        <td><input type="submit" name="button" id="button" value="关键字搜索"  style="width:80px;height:30px;color:#FFF; background-color:#004cab;border:0px"/></td>
-                    </tr>
-                </table>
+            <form id="form1" name="form1" method="post" action="ProductsServlet?method=queryAllProducts">
                 <%
                     boolean flag = true;
                     if (((List) (request.getAttribute("products"))).size() != 0) {
@@ -60,15 +46,6 @@
                 %>
             </form>
             </td>
-        </tr>
-        <tr>
-            <td align="center" valign="top">
-                <div id="pro-fenlei" >
-                    <ul>
-                        <li><a href="ProductsServlet?method=queryProductsDetailByType&type=粉末" >粉末</a></li>
-                        <li><a href="ProductsServlet?method=queryProductsDetailByType&type=溶液">溶液</a></li>
-                    </ul>
-                </div></td>
         </tr>
     </table>
     <br />
@@ -93,7 +70,7 @@
                         <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="ProductsServlet?method=queryProductsDetailById&id=${product.id}">${product.id}</a></td>
                         <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp</span><a href="product_show.jsp?name=${product.name}"></a>${product.name}</td>
                         <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.type}</span></td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content"><c:if test="${product.field}==1">生物芯片</c:if> ${product.field}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.field}</span></td>
                     </tr>
                 </c:forEach>
             </table>

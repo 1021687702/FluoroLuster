@@ -11,8 +11,8 @@ public class ProductsServiceImpl implements ProductsService {
     private ProductsDao productsDao = new ProductsDaoImpl();
 
     @Override
-    public List<Product> queryProductsById(String name) {
-        return productsDao.queryProductsById(name);
+    public List<Product> queryAllProducts() {
+        return productsDao.queryAllProducts();
     }
 
     @Override

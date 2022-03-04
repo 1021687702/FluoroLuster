@@ -10,10 +10,9 @@ import java.util.List;
 public class ProductsDaoImpl implements ProductsDao {
 
     @Override
-    public List<Product> queryProductsById(String name) {
-        String sql = "select * from Products where id = ? or name like ?";
-        String n = "%" + name + "%";
-         return DBUtil.queryByCondition(sql, Product.class,name,n);
+    public List<Product> queryAllProducts() {
+        String sql = "select * from Products";
+         return DBUtil.queryByCondition(sql, Product.class);
     }
 
     @Override
@@ -25,7 +24,7 @@ public class ProductsDaoImpl implements ProductsDao {
 
     @Override
     public List<Product> queryProductsByField(String field) {
-        String sql = "select * from Products where field = ?";
+        String sql = "select * from Product_Detail where field = ?";
         return DBUtil.queryByCondition(sql, Product.class,field);
     }
 }

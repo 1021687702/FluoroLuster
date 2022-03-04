@@ -15,12 +15,8 @@ public class ProductsServlet extends BaseServlet{
 
 
     //根据id号查询商品
-    public void queryProductsById(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
-        String id = request.getParameter("Products");
-        List<Product> products = productsService.queryProductsById(id);
-        for (int i = 0; i < products.size(); i++) {
-            Product product= products.get(i);
-        }
+    public void queryAllProducts(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+        List<Product> products = productsService.queryAllProducts();
         request.setAttribute("products", products);
         request.setAttribute("flag", "true");
         request.getRequestDispatcher("/products.jsp").forward(request, resp);
@@ -37,6 +33,6 @@ public class ProductsServlet extends BaseServlet{
         String field = request.getParameter("field");
         List<Product> products = productsService.queryProductsByField(field);
         request.setAttribute("products", products);
-        request.getRequestDispatcher("/products.jsp").forward(request, resp);
+        request.getRequestDispatcher("/product_show.jsp").forward(request, resp);
     }
 }

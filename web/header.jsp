@@ -35,7 +35,7 @@
                                             </ul>
                                         </li>
 
-                                        <li><a href="ProductsServlet?method=queryProductsById" >产品中心</a>
+                                        <li><a href="ProductsServlet?method=queryAllProducts" >产品中心</a>
                                             <ul>
                                                 <li><a href="ProductsServlet?method=queryProductsByField&field=1">生物芯片</a></li>
                                                 <li><a href="ProductsServlet?method=queryProductsByField&field=2">电子芯片光阻</a></li>
