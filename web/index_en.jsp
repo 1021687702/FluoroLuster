@@ -238,7 +238,7 @@ Our technical team led by Postdoctoral of USA, with professional sales and servi
                 <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                         <td width="512" height="60" align="left" class="title">WHAT WE ARE ? </td>
-                        <td width="488" rowspan="3" align="right"><img src="images/fenlei-bg.jpg" width="440" height="456" /></td>
+                        <td width="488" rowspan="3" align="right"><img src="images/fenlei.jpg" width="440" height="456" /></td>
                     </tr>
                     <tr>
                         <td align="left"><p class="about-font" >KaiGe Bio-Tech Co., Ltd. a high-tech enterprise specializing in R&D, production and sales of APIs and pharmaceutical intermediates, Fluorinated Products,Hydroxyproline Derivatives,Carbohydrate Chemistry and Fine Chemicals.<br />
