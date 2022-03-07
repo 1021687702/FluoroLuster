@@ -20,17 +20,15 @@
                         <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td width="220" align="left" valign="top"><br />
-                                    <img src="images/logo.png" width="204" height="116" border="0" /></td>
+                                    <img src="images/logo_w.png" width="204" height="116" border="0" /></td>
                                 <td width="206" align="left" valign="top"><span class="end-font">走进氟泽 <br />
               </span>
                                     <span class="end-font1">
-			  <a href="file_read.jsp?ID=7&fo=2" class="end-font1">公司简介</a><br />
-              <a href="reaction.jsp?id=10&fo=4" class="end-font1">特色反应</a><br />
-			  <a href="business.jsp?id=11&fo=5&flags=7" class="end-font1">业务介绍</a><br />
+			  <a href="file_read.jsp" class="end-font1">公司简介</a><br />
+			  <a href="advantages.jsp" class="end-font1">技术优势</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-                                    <a href="products.jsp?bcn=23&fo=3" class="end-font1">粉末</a><br />
-                                    <a href="products.jsp?bcn=35&fo=3" class="end-font1">溶液</a><br />
+                                    <a href="product_show.jsp" class="end-font1">产品介绍</a><br />
                                 </td>
                                 <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
 

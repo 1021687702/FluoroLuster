@@ -53,7 +53,7 @@
                             <tr>
                                 <td width="600" align="left" class="file">
                                     <div style="width:600px;min-height:400px;font-size:12px" id="map">
-                                        <img src="images/a2.jpg" alt="" width="600" />
+                                        <img src="images/logo.jpg" alt="" width="600" />
                                     </div>
                                 </td>
                                 <td align="right" valign="top" class="file"><br />

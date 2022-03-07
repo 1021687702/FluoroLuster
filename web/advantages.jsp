@@ -33,13 +33,18 @@
         <tr>
             <td align="center"><table width="1000" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="564" align="left" valign="top" class="now">业务介绍</td>
-                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp?fo=1" class="contact">首页</a> /  <a href="#" class="contact">业务介绍</a></span></td>
+                    <td width="564" align="left" valign="top" class="now">技术优势</td>
+                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp?fo=1" class="contact">关于我们</a> /  <a href="#" class="contact">技术优势</a></span></td>
                 </tr>
             </table></td></tr>
     </table>
-    <div style="width:100%; height:1px; border-bottom:1px solid #e7e7e7"></div>
 
+
+<div style="width:100%; height:1px; border-bottom:1px solid #e7e7e7"></div>
+<br>
+<STRONG style="font-size: xx-large">公司业务全产业链覆盖,专利布局完整工艺链
+    从原材料到成品均在中国大陆完成
+</STRONG>
     <table width="1000" height="600" border="0" align="center" cellpadding="0" cellspacing="0" >
         <tr>
             <td align="center" valign="top"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -68,13 +73,13 @@
                                                             <tr>
                                                                 <td height="50" align="center" class="title4">
                                                                     <p class="title4">
-                                                                        非晶态全氟溶液
+                                                                        产品实力
                                                                     </p>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="left" class="about-font1">
-                                                                    树脂目前常规下提供三种型号：T8、T6、T3,分别适应不同应用场景，但是也可以根据不同应用场景实现材料的灵活订制，以最大限度发挥其特性优势
+                                                                    我司特种氟树脂目前已成功开发出光电（T系列）和特种分离（S系列）两个产品线，性能大幅优于国外同类产品。
                                                                 </td>
                                                             </tr>
                                                             </tbody>
@@ -99,8 +104,13 @@
                                                             <tr>
                                                                 <td align="center" class="title5">
                                                                     <p class="title5">
-                                                                        克级至吨位化学品的定制生产和代加工
+                                                                        开发实力
                                                                     </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" class="about-font1">
+                                                                    具备极强的独立开发、产品订制化能力和专利布局能力，具备基于不同应用场景和制程的分子设计和结构调变核心技术，对材料的耐热、分离性能、涂覆性、透气率等指标做出精准的调控，以满足不同领域客户需要，并随时根据产业链研发的最新进展制定新产品研发策略，快速进行技术迭代。
                                                                 </td>
                                                             </tr>
                                                             </tbody>
@@ -125,8 +135,15 @@
                                                             <tr>
                                                                 <td align="center" class="title5">
                                                                     <p class="title5">
-                                                                        API及中间体的技术开发，中试和生产
+                                                                        纯国产
                                                                     </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" class="about-font1">
+                                                                    公司业务全产业链覆盖，专利布局完整工艺链
+                                                                    从原材料到成品均在中国大陆完成
+
                                                                 </td>
                                                             </tr>
                                                             </tbody>

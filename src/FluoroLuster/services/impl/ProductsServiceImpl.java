@@ -15,7 +15,7 @@ public class ProductsServiceImpl implements ProductsService {
         return productsDao.queryAllProducts();
     }
 
-    @Override
+/*    @Override
     public Product queryProductsDetailById(String id) {
         return productsDao.queryProductsDetailById(id);
     }
@@ -23,5 +23,5 @@ public class ProductsServiceImpl implements ProductsService {
     @Override
     public List<Product> queryProductsByField(String field) {
         return productsDao.queryProductsByField(field);
-    }
+    }*/
 }

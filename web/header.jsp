@@ -28,31 +28,19 @@
                                     </style>
 
                                     <ul id="menu">
-                                        <li><a href="index.jsp"  >首页</a></li>
-                                        <li><a href="file_read.jsp"  >关于我们</a>
+                                        <li><a href="index.jsp"  >关于我们</a>
                                             <ul >
                                                 <li><a href="file_read.jsp" >公司简介</a></li>
                                             </ul>
                                         </li>
-
                                         <li><a href="ProductsServlet?method=queryAllProducts" >产品中心</a>
-                                            <ul>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=1">生物芯片</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=2">电子芯片光阻</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=3">纳米级氟气体分离膜</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=4">低损耗全氟塑料光纤</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=5">3D打印离型膜</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=6">高端医疗器械涂层</a></li>
-                                                <li><a href="ProductsServlet?method=queryProductsByField&field=7">显示基材</a></li>
-                                            </ul>
                                         </li>
-                                        <li><a href="business.jsp" >技术优势</a></li>
+                                        <li><a href="advantages.jsp" >技术优势</a></li>
                                         <li><a href="contact.jsp" >联系我们</a>
                                             <ul >
                                                 <li><a href="contact.jsp">联系方式</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="index_en.jsp" style="font-family: Arial, Helvetica, sans-serif">ENGLISH</a></li>
 
                                     </ul>
                                     <!-- end .menu -->

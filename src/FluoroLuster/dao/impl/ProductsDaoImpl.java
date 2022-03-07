@@ -15,7 +15,7 @@ public class ProductsDaoImpl implements ProductsDao {
          return DBUtil.queryByCondition(sql, Product.class);
     }
 
-    @Override
+/*    @Override
     public Product queryProductsDetailById(String id) {
         String sql = "select * from Product_Detail where id = ?";
         Product product= DBUtil.queryByCondition(sql, Product.class,id).get(0);
@@ -26,5 +26,5 @@ public class ProductsDaoImpl implements ProductsDao {
     public List<Product> queryProductsByField(String field) {
         String sql = "select * from Products where field = ?";
         return DBUtil.queryByCondition(sql, Product.class,field);
-    }
+    }*/
 }

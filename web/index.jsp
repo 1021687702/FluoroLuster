@@ -48,7 +48,7 @@
     <div style=" margin:0 auto;width:100%; height:657px; background:url(images/b-bg.jpg) center no-repeat;">
         <table width="1000" height="160" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
-                <td align="center" class="title3">业务介绍<br /><div style="width:80px; height:4px; background:#004cab"></div></td>
+                <td align="center" class="title3">技术优势<br /><div style="width:80px; height:4px; background:#004cab"></div></td>
             </tr>
         </table>
 
