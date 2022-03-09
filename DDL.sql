@@ -10,11 +10,9 @@ insert into product_detail(id, name, picture, description,field) values (1,'粉�
 (4,'溶液T8','logo.jpg','这是溶液T8','4');
 
 
-drop  table product_detail;
-CREATE TABLE product_detail (id int primary key ,name varchar(20) not null ,information varchar(20),Performance varchar(20),table varchar(20));
-insert into product_detail(id, name, picture, description,field) values (1,'粉末S33','logo.jpg','这是粉末S33的简介','1'),(2,'溶液T3','logo.jpg','这是溶液T3','1'),(3,'溶液T6','logo.jpg','这是溶液T6%','3'),
-(4,'溶液T8','logo.jpg','这是溶液T8','4');
-
+drop  table products;
+CREATE TABLE products (id int primary key ,name varchar(20) not null ,information varchar(255),Performance varchar(255),sheet varchar(20));
+insert into products(id, name, information, Performance,sheet) value (1,'功能型含氟树脂溶液','功能型含氟树脂溶液，针对高端制造业应用需求，提供订制化材料解决方案及相关产品。','•	适合喷涂、旋涂、浸涂及高分子蒸镀等涂覆工艺','Product.png');
 
 
 

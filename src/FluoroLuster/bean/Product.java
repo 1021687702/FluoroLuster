@@ -6,39 +6,7 @@ import java.util.PrimitiveIterator;
 public class Product {
     private int id;
     private String name;
-    private String type;
-    private String field;
-    private String description;
-
-    public String getPicture() {
-        return picture;
-    }
-
-    public void setPicture(String picture) {
-        this.picture = picture;
-    }
-
-    private String picture;
-    public String getField() {
-        return field;
-    }
-
-    public void setField(String field) {
-        this.field = field;
-    }
-
-
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-
-
+    private String information;
 
     public int getId() {
         return id;
@@ -56,11 +24,32 @@ public class Product {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getInformation() {
+        return information;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setInformation(String information) {
+        this.information = information;
     }
+
+    public String getPerformance() {
+        return Performance;
+    }
+
+    public void setPerformance(String performance) {
+        Performance = performance;
+    }
+
+    public String getSheet() {
+        return sheet;
+    }
+
+    public void setSheet(String sheet) {
+        this.sheet = sheet;
+    }
+
+    private String Performance;
+    private String sheet;
+
+
 }
