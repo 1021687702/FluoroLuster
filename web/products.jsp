@@ -59,18 +59,12 @@
         <tr>
             <td align="center" class="about-abont">
                 <table width="100%" border="0" align="center" cellpadding="8" cellspacing="1" bgcolor="#f4f4f4">
-                    <tr>
-                        <td width="155" height="40" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE14 STYLE2"><span class="content">&nbsp;&nbsp;</span><span class="STYLE2">产品编号</span></span></td>
-                        <td width="375" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE14 STYLE2"><span class="content">&nbsp;&nbsp;</span><span class="STYLE2">产品名称</span></span></td>
-                        <td height="25" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE2"><span class="content">&nbsp;&nbsp;</span>产品类型 </span></td>
-                        <td height="25" align="left" valign="middle" bgcolor="#1e65be"><span class="STYLE2"><span class="content">&nbsp;&nbsp;</span>所属领域 </span></td>
-                    </tr>
                 <c:forEach var="product" items="${products}" varStatus="i" >
                     <tr>
                         <td height="20" align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp;</span><a href="ProductsServlet?method=queryProductsDetailById&id=${product.id}">${product.id}</a></td>
                         <td align="left" valign="middle" class="about-font-en"><span class="content">&nbsp;&nbsp</span><a href="product_show.jsp?name=${product.name}"></a>${product.name}</td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.type}</span></td>
-                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.field}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.information}</span></td>
+                        <td width="248" height="20" align="left" valign="middle" class="about-font-en"><span class="content">${product.Performance}</span></td>
                     </tr>
                 </c:forEach>
             </table>
