@@ -33,11 +33,11 @@ public class Product {
     }
 
     public String getPerformance() {
-        return Performance;
+        return performance;
     }
 
     public void setPerformance(String performance) {
-        Performance = performance;
+        this.performance = performance;
     }
 
     public String getSheet() {
@@ -48,7 +48,7 @@ public class Product {
         this.sheet = sheet;
     }
 
-    private String Performance;
+    private String performance;
     private String sheet;
 
 
