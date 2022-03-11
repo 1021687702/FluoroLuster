@@ -32,19 +32,19 @@
         </tr>
         <tr>
             <td align="left"><br />
-                <table width="100%" border="0" align="center" cellpadding="8" cellspacing="1" bgcolor="#ddd">
+                <table width="100%" border="0" align="center" cellpadding="20" cellspacing="0" bgcolor="#ddd">
                     <c:forEach var="product" items="${products}" varStatus="i" >
                     <tr>
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font">产品名称：<strong>${product.name}</strong> </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font-en">产品描述：<strong>${product.information}</strong></span> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font-en"><strong>产品信息：${product.information}</strong></span> </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">详细说明: ${product.performance}</strong> <br> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能: <br>${product.performance}</strong> <br> </td>
                     </tr>
                     <tr>
-                        <td width="82%" height="200px" align="left" bgcolor="#FFFFFF" class="about-font"><img src="images/${product.sheet}">如果产品暂时缺货，请发送邮件到 <br><a href="" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
+                        <td width="82%" height="200px" align="center" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能图表: </strong><br><img src="images/${product.sheet}"><br>如果产品暂时缺货，请发送邮件到 <a href="" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
                     </tr>
                     </c:forEach>
                 </table>
