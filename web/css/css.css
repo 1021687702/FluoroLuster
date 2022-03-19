@@ -31,7 +31,8 @@ a:hover{text-decoration:none; color:#1e65be;transition: color 0.3s;-moz-transiti
 .title2{ font-family:"微软雅黑"; font-size:25px; color:#FFF; line-height:60px; }
 .title3{ font-family:"微软雅黑"; font-size:30px; color:#004cab; font-weight:bold; line-height:55px; letter-spacing:2px;}
 .title4{ font-family:"微软雅黑"; font-size:18px; color:#ffffff;}
-.title5{ font-family:"微软雅黑"; font-size:15px; color:#ffffff; line-height:28px; }
+.title5{ font-family:"微软雅黑"; font-size:18px; color:#ffffff; line-height:28px; }
+.title6{ font-family:"微软雅黑"; font-size:15px; color:#ffffff; line-height:28px; }
 
 .file{ font-family:"微软雅黑"; font-size:13px; color:#333; line-height:25px;}
 .now{ font-family:"微软雅黑"; font-size:18px; color:#0059ab; line-height:25px;text-transform:uppercase; font-weight:bold;}

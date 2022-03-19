@@ -103,14 +103,14 @@
                                                             <tbody>
                                                             <tr>
                                                                 <td align="center" class="title5">
-                                                                    <p class="title5">
+                                                                    <p class="title5" style="font-size: 18px">
                                                                         开发实力
                                                                     </p>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="left" class="about-font1">
-                                                                    具备极强的独立开发、产品订制化能力和专利布局能力，具备基于不同应用场景和制程的分子设计和结构调变核心技术，对材料的耐热、分离性能、涂覆性、透气率等指标做出精准的调控，以满足不同领域客户需要，并随时根据产业链研发的最新进展制定新产品研发策略，快速进行技术迭代。
+                                                                    具备极强的独立开发、产品订制化能力和专利布局能力，具备基于不同应用场景和制程的分子设计和结构调变核心技术。
                                                                 </td>
                                                             </tr>
                                                             </tbody>
@@ -133,17 +133,15 @@
                                                         <table width="95%" align="center" class="ke-zeroborder" border="0" cellspacing="0" cellpadding="0">
                                                             <tbody>
                                                             <tr>
-                                                                <td align="center" class="title5">
-                                                                    <p class="title5">
+                                                                <td align="center" class="title6">
+                                                                    <p class="title6" style="font-size: 18px">
                                                                         纯国产
                                                                     </p>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td align="left" class="about-font1">
-                                                                    公司业务全产业链覆盖，专利布局完整工艺链
-                                                                    从原材料到成品均在中国大陆完成
-
+                                                                    公司业务全产业链覆盖，专利布局完整工艺链。从原材料到成品均在中国大陆完成
                                                                 </td>
                                                             </tr>
                                                             </tbody>

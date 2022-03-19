@@ -130,7 +130,7 @@
                     .banner .d1{width:100%;height:547px;display:block;position:absolute;left:0px;}
                     .banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:100;left:0px;top:600px;}
                     .banner .d2 ul{float:left;position:absolute;left:46%;top:0;margin:0 0 0 0px;display:inline;}
-                    .banner .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url(images/img1.png) no-repeat center;float:left;margin:0 3px;display:inline;}
+                    .banner .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;float:left;margin:0 3px;display:inline;}
                     .banner .d2 li.nuw{background: no-repeat center;}
                 </style>
 

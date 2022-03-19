@@ -81,7 +81,7 @@
                         </table></td>
                     </tr>
                 </table></td>
-                <td width="344" align="right"><table width="321" height="391" border="0" align="right" cellpadding="0" cellspacing="0" background="images/bb3_tmp.jpg">
+                <td width="344" align="right"><table width="321" height="391" border="0" align="right" cellpadding="0" cellspacing="0" background="images/bb3.jpg">
                     <tr>
                         <td height="250">&nbsp;</td>
                     </tr>
