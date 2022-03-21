@@ -44,8 +44,11 @@
                         <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能: </strong><br><strong>${product.performance}</strong> <br> </td>
                     </tr>
                     <tr>
-                        <td width="82%" height="200px" align="center" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能图表: </strong><br><img src="images/${product.sheet}"><br>如果产品暂时缺货，请发送邮件到 <a href="" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
+                        <td width="82%" height="200px" align="center" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能图表: </strong><br><img src="images/${product.sheet}"></td>
                     </tr>
+<%--                    <tr>
+                            <td width="82%" height="200px" align="center" bgcolor="#FFFFFF" class="about-font"><img src="images/${product.picture}"><br>如果产品暂时缺货，请发送邮件到 <a href="" class="about-font-en">409135467@qq.com</a> ，当我们有存货时会及时联系您。</td>
+                    </tr>--%>
                     </c:forEach>
                 </table>
             </td>

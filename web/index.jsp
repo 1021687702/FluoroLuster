@@ -28,7 +28,7 @@
                 <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                         <td width="512" height="60" align="left" class="title"><p class="title" >关于氟泽新材料</p></td>
-                        <td width="488" rowspan="3" align="right"><img src="images/fenlei.jpg" width="440" height="456" /></td>
+                        <td width="488" rowspan="3" align="right"><img src="images/fenlei.png" width="456" height="456" /></td>
                     </tr>
                     <tr>
                         <td align="left"><p class="about-font" > 氟泽新材料有限责任公司位于上海市奉贤区，是国内独家全自主专利技术特种氟树脂生产商。

@@ -161,10 +161,16 @@
                         <br />
                         <br /></td>
                 </tr>
-            </table></td>
+            </table>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <div style="width: 1000px;height: 440px;" align="center"><img src="images/advantages.png" style="width: 1000px;height: 440px">
+                </div>
+            </td>
         </tr>
     </table>
-
     </div>
     </div>
 <%@include file="footer.jsp"%>

@@ -75,7 +75,7 @@
                                     </table></td>
                             </tr>
                         </table>
-                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/09/lh8c">
+                        <iframe id="map" style="border:1px solid #ddd;" width="998" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://j.map.baidu.com/0a/4ql">
                         </iframe>
                         <br />
                         <br />
