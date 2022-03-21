@@ -77,11 +77,11 @@
                                                                     </p>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                           <%-- <tr>
                                                                 <td align="left" class="about-font1">
                                                                     我司特种氟树脂目前已成功开发出光电（T系列）和特种分离（S系列）两个产品线，性能大幅优于国外同类产品。
                                                                 </td>
-                                                            </tr>
+                                                            </tr>--%>
                                                             </tbody>
                                                         </table>
                                                     </td>
@@ -108,11 +108,11 @@
                                                                     </p>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                            <%--<tr>
                                                                 <td align="left" class="about-font1">
                                                                     具备极强的独立开发、产品订制化能力和专利布局能力，具备基于不同应用场景和制程的分子设计和结构调变核心技术。
                                                                 </td>
-                                                            </tr>
+                                                            </tr>--%>
                                                             </tbody>
                                                         </table>
                                                     </td>
@@ -139,11 +139,11 @@
                                                                     </p>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                            <%--<tr>
                                                                 <td align="left" class="about-font1">
                                                                     公司业务全产业链覆盖，专利布局完整工艺链。从原材料到成品均在中国大陆完成
                                                                 </td>
-                                                            </tr>
+                                                            </tr>--%>
                                                             </tbody>
                                                         </table>
                                                     </td>
@@ -163,12 +163,6 @@
                 </tr>
             </table>
         </td>
-        </tr>
-        <tr>
-            <td>
-                <div style="width: 1000px;height: 440px;" align="center"><img src="images/advantages.png" style="width: 1000px;height: 440px">
-                </div>
-            </td>
         </tr>
     </table>
     </div>

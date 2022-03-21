@@ -70,3 +70,7 @@ product.jsp改为所有商品的信息展示
 •	超低活质附着性。
 
 产品性能表(Performance table)
+
+
+域名：www.FluoroLuster.com
+服务器CVM  

@@ -135,14 +135,14 @@
                 </style>
 
                 <div class="banner" id="banner" >
-                    <a  class="d1" style="background:url(images/banner1.jpg) center no-repeat;"></a>
+                    <a  class="d1" style="background:url(images/nbanner1.jpg) center no-repeat;"></a>
                     <a  class="d1" style="background:url(images/banner2.jpg) center no-repeat;"></a>
                     <a  class="d1" style="background:url(images/banner3.jpg) center no-repeat;"></a>
                     <a  class="d1" style="background:url(images/banner4.jpg) center no-repeat;"></a>
                     <div class="d2" id="banner_id">
                         <ul>
                             <li></li>
-                            <li></li>
+                            <li></li>n
                             <li></li>
                             <li></li>
                         </ul>
