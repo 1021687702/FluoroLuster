@@ -40,7 +40,7 @@ version 0.2 -> version 0.3
 删除产品搜索模块 
 product.jsp改为所有商品的信息展示
 产品中心跳转上面
-具体领域的话跳转不同的产品的信息（product_show.jsp）
+具体领域的话跳转不同的产品的信息（product.jsp）
 
 氟树脂（T）应用领域
     柔性显示基材及OLED的隔水封装

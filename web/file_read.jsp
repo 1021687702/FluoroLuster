@@ -43,9 +43,7 @@
                     <td align="center"><br />
                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td align="left" class="file"><p align="center">
-                                    <img alt="" src="/../boss/editor/attached/image/20160415/201604150909694069401.jpg" />
-                                </p>
+                                <td align="left" class="file">
                                     <p>
                                         <br />
                                         <br />
@@ -61,9 +59,7 @@
                                         公司业务全产业链覆盖，专利布局完整工艺链 ，从原材料到成品均在中国大陆完成.
                                         针对高端制造业应用需求，提供订制化材料解决方案及相关产品。
                                     </p>
-                                    <p align="center">
-                                        <img alt="" src="/../boss/editor/attached/image/20160415/20160415105270347034.jpg" />
-                                    </p></td>
+                                    </td>
                             </tr>
                         </table>
                         <br />

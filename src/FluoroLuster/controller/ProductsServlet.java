@@ -19,20 +19,20 @@ public class ProductsServlet extends BaseServlet{
         List<Product> products = productsService.queryAllProducts();
         request.setAttribute("products", products);
         request.setAttribute("flag", "true");
-        request.getRequestDispatcher("/product_show.jsp").forward(request, resp);
+        request.getRequestDispatcher("/product.jsp").forward(request, resp);
     }
 /*    //根据id号查询商品详情
     public void queryProductsDetailById(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
         String id = request.getParameter("id");
         Product product = productsService.queryProductsDetailById(id);
         request.setAttribute("product", product);
-        request.getRequestDispatcher("/product_show.jsp").forward(request, resp);
+        request.getRequestDispatcher("/product.jsp").forward(request, resp);
     }
     //根据应用领域查询商品列表
     public void queryProductsByField(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
         String field = request.getParameter("field");
         List<Product> products = productsService.queryProductsByField(field);
         request.setAttribute("products", products);
-        request.getRequestDispatcher("/product_show.jsp").forward(request, resp);
+        request.getRequestDispatcher("/product.jsp").forward(request, resp);
     }*/
 }
