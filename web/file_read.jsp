@@ -27,7 +27,7 @@
             <td align="center"><table width="1000" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
                     <td width="564" align="left" valign="top" class="now">公司简介</td>
-                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp?fo=1" class="contact">首页</a> /  <a href="#" class="contact">公司简介</a></span></td>
+                    <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp" class="contact">首页</a> /  <a href="#" class="contact">公司简介</a></span></td>
                 </tr>
             </table></td></tr>
     </table>
@@ -47,17 +47,17 @@
                                     <p>
                                         <br />
                                         <br />
-                                        氟泽新材料有限责任公司位于上海市奉贤区，是国内独家全自主专利技术特种氟树脂生产商。<br />
+                                        <strong>氟泽新材料有限责任公司位于上海市奉贤区，是国内独家全自主专利技术特种氟树脂生产商。</strong><br />
                                     </p>
                                     <p>
-                                        氟泽新材料有限公司位于上海市工业综合开发区，国内独家全自主专利技术特种氟树脂生产商，所生产的产品是氟材料中附加值最高、技术难度最大的品类，广泛应用于半导体、新型显示、高端医疗、高端制造、军工及航空航天领域。
+                                        <STRONG>氟泽新材料有限公司位于上海市工业综合开发区，国内独家全自主专利技术特种氟树脂生产商，所生产的产品是氟材料中附加值最高、技术难度最大的品类，广泛应用于半导体、新型显示、高端医疗、高端制造、军工及航空航天领域。</STRONG>
                                     </p>
                                     <p>
-                                        在液相一步法直接氟化技术， 非晶态全氟材料聚合技术和纳米级全氟 分离膜技术三个领域，均为中国的技术 垄断。
+                                        <strong>在液相一步法直接氟化技术， 非晶态全氟材料聚合技术和纳米级全氟 分离膜技术三个领域，均为中国的技术 垄断。</strong>
                                     </p>
                                     <p>
-                                        公司业务全产业链覆盖，专利布局完整工艺链 ，从原材料到成品均在中国大陆完成.
-                                        针对高端制造业应用需求，提供订制化材料解决方案及相关产品。
+                                        <strong>公司业务全产业链覆盖，专利布局完整工艺链 ，从原材料到成品均在中国大陆完成.
+                                        针对高端制造业应用需求，提供订制化材料解决方案及相关产品。</strong>
                                     </p>
                                     </td>
                             </tr>
