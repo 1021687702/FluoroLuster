@@ -138,13 +138,13 @@
                     <a  class="d1" style="background:url(images/banner1.jpg) no-repeat; display: block; z-index: 2;"></a>
                     <a  class="d1" style="background:url(images/banner2.jpg) center center no-repeat; display: block; z-index: 2;"></a>
                     <a  class="d1" style="background:url(images/banner3.jpg) center center no-repeat; display: block; z-index: 2;"></a>
-                    <a  class="d1" style="background:url(images/banner4.jpg) center center no-repeat; display: block; z-index: 2;"></a>
+                    <%--<a  class="d1" style="background:url(images/banner4.jpg) center center no-repeat; display: block; z-index: 2;"></a>--%>
                     <div class="d2" id="banner_id">
                         <ul>
                             <li></li>
                             <li></li>
                             <li></li>
-                            <li></li>
+                            <%--<li></li>--%>
                         </ul>
                     </div>
                 </div>
