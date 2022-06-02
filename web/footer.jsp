@@ -25,7 +25,6 @@
               </span>
                                     <span class="end-font1">
 			  <a href="file_read.jsp" class="end-font1">公司简介</a><br />
-			  <a href="advantages.jsp" class="end-font1">技术优势</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
                                     <a href="ProductsServlet?method=queryAllProducts" class="end-font1">产品介绍</a><br />
@@ -51,7 +50,7 @@
             <td height="40" align="center" bgcolor="#212121"><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
                     <td width="636" class="end-font2">COPYRIGHT  &copy;  2016 上海氟泽新材料有限责任公司 版权所有</td>
-                    <td width="372" align="right" class="end-font2">技术支持：<a href="http://www.chemindustry.com" target="_blank" class="end-font2">ChemIndustry.com Inc.</a></td>
+                    <td width="372" align="right" class="end-font2">技术支持：<a href="http://www.baidu.com" target="_blank" class="end-font2">Patience.com Inc.</a></td>
                 </tr>
             </table></td>
         </tr>

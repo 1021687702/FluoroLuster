@@ -33,7 +33,6 @@
         <tr>
             <td align="center"><table width="1000" height="45" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="564" align="left" valign="top" class="now">技术优势</td>
                     <td width="436" align="right" valign="top"><span class="contact"><a name="001" id="001"></a><a href="index.jsp?fo=1" class="contact">关于我们</a> /  <a href="#" class="contact">技术优势</a></span></td>
                 </tr>
             </table></td></tr>

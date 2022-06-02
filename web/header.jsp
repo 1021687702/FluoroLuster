@@ -35,11 +35,10 @@
                                         </li>
                                         <li><a href="ProductsServlet?method=queryAllProducts" >产品中心</a>
                                         </li>
-                                        <li><a href="advantages.jsp" >技术优势</a></li>
                                         <li><a href="contact.jsp" >联系我们</a>
-                                            <ul >
+<%--                                            <ul >
                                                 <li><a href="contact.jsp">联系方式</a></li>
-                                            </ul>
+                                            </ul>--%>
                                         </li>
 
                                     </ul>

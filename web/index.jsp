@@ -27,18 +27,18 @@
                 <br />
                 <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="512" height="60" align="left" class="title"><p class="title" >关于氟泽新材料</p></td>
+                        <td width="512" height="60" align="center" class="title"><p class="title" >关于氟泽新材料</p></td>
                         <td width="200" align="center"><div style="width: 200px"></div></td>
-                        <td width="550" rowspan="3" align="right"><img src="images/fenlei.png" width="687" height="489" /></td>
+                        <td width="550" rowspan="3" align="right"><img src="images/equip.jpg" width="462" height="210" /></td>
                     </tr>
                     <tr>
-                        <td align="left"><p class="about-font" > 氟泽新材料有限责任公司位于上海市奉贤区，是国内独家全自主专利技术特种氟树脂生产商。
+                        <td align="left"><p class="about-font" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;氟泽新材料有限责任公司位于上海市奉贤区，是国内独家全自主专利技术特种氟树脂生产商。
                             特种氟树脂具有超高化学稳定，超高耐热，超低介电系数，超高透气等一系列稀缺物化特性，全球市场长期由国外的氟化工巨头垄断，是氟材料中附加值最高、技术难度最大的品类。
                             针对高端制造业应用需求，提供订制化材料解决方案及相关产品。</p></td>
                     </tr>
-                    <tr>
+<%--                    <tr>
                         <td align="left"><img src="images/equip.jpg" width="462" height="210" /></td>
-                    </tr>
+                    </tr>--%>
                 </table>
                 <br />
                 <br />
