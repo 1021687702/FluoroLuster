@@ -33,7 +33,7 @@
                                                 <li><a href="file_read.jsp" >公司简介</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="ProductsServlet?method=queryAllProducts" >产品中心</a>
+                                        <li><a href="products.jsp" >产品中心</a>
                                         </li>
                                         <li><a href="contact.jsp" >联系我们</a>
 <%--                                            <ul >
