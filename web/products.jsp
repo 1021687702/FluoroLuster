@@ -24,14 +24,7 @@
     <br />
     <br />
 <table  style="border: black" width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
-
-
-        <tr>
-<%--
-            <td height="30" align="left" class="about-font"><span class="news-title">产品编号 ：</span>${product.id}</td>
---%>
-        </tr>
-        <tr>
+    <tr>
             <td align="left"><br />
                 <table width="100%" border="0" align="center" cellpadding="20" cellspacing="0" bgcolor="#ddd">
       <%--              <c:forEach var="product" items="${products}" varStatus="i" >--%>
@@ -49,126 +42,69 @@
                     </tr>--%>
 <%--                    </c:forEach>--%>
                 </table>
-
+                <table id="table-1">
+                    <thead>
+                    <th colspan="3">产品性能数据表</th><th colspan="3">型号</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td colspan="2">性能</td><td colspan="1">单位</td><td colspan="1">T8</td><td colspan="1">T6</td><td colspan="1">T3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">固含量</td><td colspan="1">%</td><td colspan="1">1</td><td colspan="1">9</td><td colspan="1">3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">建议涂覆厚度</td><td colspan="1">nm</td><td colspan="1">100-200</td><td colspan="1">1000</td><td colspan="1">600</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">电性能</td><td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">介电损耗</td><td colspan="1"></td><td colspan="1"><0.0007</td><td colspan="1"><0.0008</td><td colspan="1"><0.0008</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">光学性能</td><td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">透光率</td><td colspan="1">%</td><td colspan="1">>95</td><td colspan="1">>95</td><td colspan="1">>95</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">折射率</td><td colspan="1"></td><td colspan="1">1.31</td><td colspan="1">1.34</td><td colspan="1">1.34</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">化学性</td><td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">水接触角</td><td colspan="1">度</td><td colspan="1">115</td><td colspan="1">120</td><td colspan="1">120</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">临界表面能</td><td colspan="1">dyn/cm</td><td colspan="1">15.2</td><td colspan="1">15.2</td><td colspan="1">15.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">吸水率</td><td colspan="1">%</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">其他</td><td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">玻璃化转变温度（Tg）</td><td colspan="1">℃</td><td colspan="1">245</td><td colspan="1">120</td><td colspan="1">145</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">固态密度</td><td colspan="1">g/cm³</td><td colspan="1">1.85</td><td colspan="1">2.01</td><td colspan="1">1.91</td>
+                    </tr>
+                    </tbody>
+                </table>
             </td>
         </tr>
 
     </table>
-<table id="table-1">
-    <thead>
-    <th colspan="3">产品性能数据表</th>
-    <th colspan="3">型号</th>
-    </thead>
-    <tbody>
-    <tr>
-        <td colspan="2">性能</td>
-        <td colspan="1">单位</td>
-        <td colspan="1">T8</td>
-        <td colspan="1">T6</td>
-        <td colspan="1">T3</td>
-    </tr>
-    <tr>
-        <td colspan="2">固含量</td>
-        <td colspan="1">%</td>
-        <td colspan="1">1</td>
-        <td colspan="1">9</td>
-        <td colspan="1">3</td>
-    </tr>
-    <tr>
-        <td colspan="2">建议涂覆厚度</td>
-        <td colspan="1">nm</td>
-        <td colspan="1">100-200</td>
-        <td colspan="1">1000</td>
-        <td colspan="1">600</td>
-    </tr>
-    <tr>
-        <td colspan="2">电性能</td>
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-        <td colspan="2">介电常数</td>
-        <td colspan="1"></td>
-        <td colspan="1">1.9</td>
-        <td colspan="1">1.9</td>
-        <td colspan="1">1.9</td>
-    </tr>
-    <tr>
-        <td colspan="2">介电常数</td>
-        <td colspan="1"></td>
-        <td colspan="1">1.9</td>
-        <td colspan="1">1.9</td>
-        <td colspan="1">1.9</td>
-    </tr>
-    <tr>
-        <td colspan="2">介电损耗</td>
-        <td colspan="1"></td>
-        <td colspan="1"><0.0007</td>
-        <td colspan="1"><0.0008</td>
-        <td colspan="1"><0.0008</td>
-    </tr>
-    <tr>
-        <td colspan="2">光学性能</td>
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-        <td colspan="2">透光率</td>
-        <td colspan="1">%</td>
-        <td colspan="1">>95</td>
-        <td colspan="1">>95</td>
-        <td colspan="1">>95</td>
-    </tr>
-    <tr>
-        <td colspan="2">折射率</td>
-        <td colspan="1"></td>
-        <td colspan="1">1.31</td>
-        <td colspan="1">1.34</td>
-        <td colspan="1">1.34</td>
-    </tr>
-    <tr>
-        <td colspan="2">化学性</td>
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-        <td colspan="2">水接触角</td>
-        <td colspan="1">度</td>
-        <td colspan="1">115</td>
-        <td colspan="1">120</td>
-        <td colspan="1">120</td>
-    </tr>
-    <tr>
-        <td colspan="2">临界表面能</td>
-        <td colspan="1">dyn/cm</td>
-        <td colspan="1">15.2</td>
-        <td colspan="1">15.2</td>
-        <td colspan="1">15.6</td>
-    </tr>
-    <tr>
-        <td colspan="2">吸水率</td>
-        <td colspan="1">%</td>
-        <td colspan="1"><0.01</td>
-        <td colspan="1"><0.01</td>
-        <td colspan="1"><0.01</td>
-    </tr>
-    <tr>
-        <td colspan="2">其他</td>
-        <td colspan="4"></td>
-    </tr>
-    <tr>
-        <td colspan="2">玻璃化转变温度（Tg）</td>
-        <td colspan="1">℃</td>
-        <td colspan="1">245</td>
-        <td colspan="1">120</td>
-        <td colspan="1">145</td>
-    </tr>
-    <tr>
-        <td colspan="2">固态密度</td>
-        <td colspan="1">g/cm³</td>
-        <td colspan="1">1.85</td>
-        <td colspan="1">2.01</td>
-        <td colspan="1">1.91</td>
-    </tr>
-    </tbody>
-</table>
+
     <br />
     <br />
     <br />
