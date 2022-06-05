@@ -22,7 +22,7 @@ a:hover{text-decoration:none; color:#1e65be;transition: color 0.3s;-moz-transiti
 .end-font1{ font-family: "微软雅黑"; font-size:12px; color:#bbb;line-height:25px; }
 .end-font2{ font-family: "微软雅黑"; font-size:12px; color:#666;line-height:25px;}
 
-.about-font{ font-family: "微软雅黑"; font-size:13px; color:#333; line-height:24px;}
+.about-font{ font-family: "微软雅黑"; font-size:15px; color:#333; line-height:24px;}
 .about-font-en{ font-family: Arial, Helvetica, sans-serif; font-size:13px; color:#333; line-height:24px;}
 .about-font1{ font-family: "微软雅黑"; font-size:12px; color:#ffffff; line-height:21px;}
 
@@ -47,7 +47,7 @@ a:hover{text-decoration:none; color:#1e65be;transition: color 0.3s;-moz-transiti
 .left-con{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#555555; line-height:26px;}
 .time-en{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#ff7e00; line-height:21px;}
 
-.contact{ font-family:"微软雅黑"; font-size:12px; color:#999; line-height:26px;}
+.contact{ font-family:"微软雅黑"; font-size:15px; color:#999; line-height:26px;}
 .contact-Content{ font-family: "微软雅黑"; font-size:14px; color:#333; line-height:35px;}
 .contact-title{ font-family: "微软雅黑"; font-size:18px; color:#004cab;}
 
