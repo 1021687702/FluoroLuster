@@ -41,82 +41,83 @@
                 <table width="100%" border="0" align="center" cellpadding="20" cellspacing="0" bgcolor="#ddd">
       <%--              <c:forEach var="product" items="${products}" varStatus="i" >--%>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong>产品名称：</strong>功能型含氟树脂溶液 </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong style="font-size: 18px">产品名称：</strong>功能型含氟树脂溶液 </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font"><strong>产品信息：</strong>功能型含氟树脂溶液，针对高端制造业应用需求，提供订制化材料解决方案及相关产品。我司T系列含氟树脂溶液，目前提供三种型号：T8、T6、T3,分别适应不同应用场景，并提供基于特殊应用需求的材料订制化服务。 </span> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font"><strong style="font-size: 18px">产品信息：</strong>功能型含氟树脂溶液，针对高端制造业应用需求，提供订制化材料解决方案及相关产品。我司T系列含氟树脂溶液，目前提供三种型号：T8、T6、T3,分别适应不同应用场景，并提供基于特殊应用需求的材料订制化服务。 </span> </td>
                     </tr>
                     <tr>
-                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能: </strong><br><strong>·  适合喷涂、旋涂、浸涂及高分子蒸镀等涂覆工艺;<br>·  成膜均一，涂层稳定，超高疏水;<br>·  极佳的生物兼容性，无细胞毒性;·  溶质本身具备完美的化学稳定性及热稳定性;<br>·  涂层光学性能极佳，紫外区透光率亦可达 95%以上;<br>·  可实现水氧阻隔功能;<br>·  低荧光性,电润湿性可控;<br>·  超低活质附着性。</strong> <br> </td>
+                        <td colspan="3" align="left" bgcolor="#FFFFFF" class="about-font"><span class="about-font"><strong style="font-size: 18px">产品性能: </strong><br><strong style="font-size: 18px">·  适合喷涂、旋涂、浸涂及高分子蒸镀等涂覆工艺;<br>·  成膜均一，涂层稳定，超高疏水;<br>·  极佳的生物兼容性，无细胞毒性;·  溶质本身具备完美的化学稳定性及热稳定性;<br>·  涂层光学性能极佳，紫外区透光率亦可达 95%以上;<br>·  可实现水氧阻隔功能;<br>·  低荧光性,电润湿性可控;<br>·  超低活质附着性。</strong> <br> </td>
                     </tr>
 <%--                    <tr>
                         <td width="82%" height="200px" align="center" bgcolor="#FFFFFF" class="about-font"><strong class="about-font">产品性能图表: </strong><br><img src="images/${product.sheet}"></td>
                     </tr>--%>
 <%--                    </c:forEach>--%>
                 </table>
-                <table id="table-1">
-                    <thead>
-                    <th colspan="3">产品性能数据表</th><th colspan="3">型号</th>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td colspan="2">性能</td><td colspan="1">单位</td><td colspan="1">T8</td><td colspan="1">T6</td><td colspan="1">T3</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">固含量</td><td colspan="1">%</td><td colspan="1">1</td><td colspan="1">9</td><td colspan="1">3</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">建议涂覆厚度</td><td colspan="1">nm</td><td colspan="1">100-200</td><td colspan="1">1000</td><td colspan="1">600</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">电性能</td><td colspan="4"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">介电损耗</td><td colspan="1"></td><td colspan="1"><0.0007</td><td colspan="1"><0.0008</td><td colspan="1"><0.0008</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">光学性能</td><td colspan="4"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">透光率</td><td colspan="1">%</td><td colspan="1">>95</td><td colspan="1">>95</td><td colspan="1">>95</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">折射率</td><td colspan="1"></td><td colspan="1">1.31</td><td colspan="1">1.34</td><td colspan="1">1.34</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">化学性</td><td colspan="4"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">水接触角</td><td colspan="1">度</td><td colspan="1">115</td><td colspan="1">120</td><td colspan="1">120</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">临界表面能</td><td colspan="1">dyn/cm</td><td colspan="1">15.2</td><td colspan="1">15.2</td><td colspan="1">15.6</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">吸水率</td><td colspan="1">%</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">其他</td><td colspan="4"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">玻璃化转变温度（Tg）</td><td colspan="1">℃</td><td colspan="1">245</td><td colspan="1">120</td><td colspan="1">145</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">固态密度</td><td colspan="1">g/cm³</td><td colspan="1">1.85</td><td colspan="1">2.01</td><td colspan="1">1.91</td>
-                    </tr>
-                    </tbody>
-                </table>
+
             </td>
         </tr>
 
     </table>
-
+<br>
+<table id="table-1" style="text-align: center">
+    <thead>
+    <th colspan="3">产品性能数据表</th><th colspan="3">型号</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="2">性能</td><td colspan="1">单位</td><td colspan="1">T8</td><td colspan="1">T6</td><td colspan="1">T3</td>
+    </tr>
+    <tr>
+        <td colspan="2">固含量</td><td colspan="1">%</td><td colspan="1">1</td><td colspan="1">9</td><td colspan="1">3</td>
+    </tr>
+    <tr>
+        <td colspan="2">建议涂覆厚度</td><td colspan="1">nm</td><td colspan="1">100-200</td><td colspan="1">1000</td><td colspan="1">600</td>
+    </tr>
+    <tr>
+        <td colspan="2">电性能</td><td colspan="4"></td>
+    </tr>
+    <tr>
+        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
+    </tr>
+    <tr>
+        <td colspan="2">介电常数</td><td colspan="1"></td><td colspan="1">1.9</td><td colspan="1">1.9</td><td colspan="1">1.9</td>
+    </tr>
+    <tr>
+        <td colspan="2">介电损耗</td><td colspan="1"></td><td colspan="1"><0.0007</td><td colspan="1"><0.0008</td><td colspan="1"><0.0008</td>
+    </tr>
+    <tr>
+        <td colspan="2">光学性能</td><td colspan="4"></td>
+    </tr>
+    <tr>
+        <td colspan="2">透光率</td><td colspan="1">%</td><td colspan="1">>95</td><td colspan="1">>95</td><td colspan="1">>95</td>
+    </tr>
+    <tr>
+        <td colspan="2">折射率</td><td colspan="1"></td><td colspan="1">1.31</td><td colspan="1">1.34</td><td colspan="1">1.34</td>
+    </tr>
+    <tr>
+        <td colspan="2">化学性</td><td colspan="4"></td>
+    </tr>
+    <tr>
+        <td colspan="2">水接触角</td><td colspan="1">度</td><td colspan="1">115</td><td colspan="1">120</td><td colspan="1">120</td>
+    </tr>
+    <tr>
+        <td colspan="2">临界表面能</td><td colspan="1">dyn/cm</td><td colspan="1">15.2</td><td colspan="1">15.2</td><td colspan="1">15.6</td>
+    </tr>
+    <tr>
+        <td colspan="2">吸水率</td><td colspan="1">%</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td><td colspan="1"><0.01</td>
+    </tr>
+    <tr>
+        <td colspan="2">其他</td><td colspan="4"></td>
+    </tr>
+    <tr>
+        <td colspan="2">玻璃化转变温度（Tg）</td><td colspan="1">℃</td><td colspan="1">245</td><td colspan="1">120</td><td colspan="1">145</td>
+    </tr>
+    <tr>
+        <td colspan="2">固态密度</td><td colspan="1">g/cm³</td><td colspan="1">1.85</td><td colspan="1">2.01</td><td colspan="1">1.91</td>
+    </tr>
+    </tbody>
+</table>
     <br />
     <br />
     <br />
