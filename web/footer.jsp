@@ -27,7 +27,7 @@
 			  <a href="file_read.jsp" class="end-font1">公司简介</a><br />
 			  </span></td>
                                 <td width="211" align="left" valign="top"><span class="end-font">产品中心</span><br />
-                                    <a href="ProductsServlet?method=queryAllProducts" class="end-font1">产品介绍</a><br />
+                                    <a href="products.jsp" class="end-font1">产品介绍</a><br />
                                 </td>
                                 <td width="363" align="left" valign="top"><span class="end-font">联系我们 </span><br />
 
