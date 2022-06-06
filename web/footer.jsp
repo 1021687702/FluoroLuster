@@ -20,7 +20,7 @@
                         <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td width="220" align="left" valign="top"><br />
-                                    <img src="images/logo_w.png" width="204" height="116" border="0" /></td>
+                                    <img src="images/logo_f.png" width="204" height="116" border="0" /></td>
                                 <td width="206" align="left" valign="top"><span class="end-font">走进氟泽 <br />
               </span>
                                     <span class="end-font1">

@@ -19,7 +19,7 @@
                     <tr>
                         <td align="center"><table width="1156" height="100" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td width="203" align="left"><a href="index.jsp"><img src="images/logo.jpg" width="163" height="100" border="0" /></a></td>
+                                <td width="203" align="left"><a href="index.jsp"><img src="images/logo_h.jpg" width="163" height="90" border="0" /></a></td>
                                 <td width="953" align="right"><link rel="stylesheet" href="css/menu.css" media="screen">
                                     <style type="text/css">
                                         html, body { margin: 0;	padding: 0; font-family:"微软雅黑" }
